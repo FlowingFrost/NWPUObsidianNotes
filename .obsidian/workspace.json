@@ -19,6 +19,19 @@
               },
               "icon": "lucide-file",
               "title": "大学物理HC(2)"
+=======
+        "id": "99917c14b5b925b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c309781f483b8f0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+>>>>>>> 96bdb62ac9484bd1e7a086dbf245b66693e2bd3a
             }
           }
         ]
@@ -174,5 +187,49 @@
     "Column如何使用.md",
     "ReadMe.md",
     "大学物理HC(2).md"
+=======
+      "bases:创建新数据库": false,
+      "pkmer:Open Pkmer Market": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "0c309781f483b8f0",
+  "lastOpenFiles": [
+    "ReadMe.md",
+    "Toolbar样式.json",
+    "Toolbar样式.txt",
+    "新建文本文档.txt",
+    "Column如何使用.md",
+    "大学物理HC(2)……$2.md",
+    "大学物理HC(2).md",
+    "Untitled.md",
+    "终端命令/Whisper.md",
+    "Unity/Unity资源网站.md",
+    "2025-10-02.md",
+    "Unity",
+    "终端命令/WSL命令.md",
+    "2025-10-01.md",
+    "Obsidian.md",
+    "常用软件.md",
+    "有用的网站.md",
+    "临时安装的软件.md",
+    "CSharp/EvaluatorDesign.md",
+    "CSharp",
+    "终端命令",
+    "终端命令/Conda & Python Commands.md",
+    "终端命令/Ubuntu常用命令.md",
+    "保研.md",
+    "柔性电子.md",
+    "Untitled 1.md",
+    "Welcome.md",
+    "Untitled.canvas",
+    "CSharp/C Sharp的继承机制.md",
+    "README.md",
+    "终端命令/GitHub Copilot快捷键.md",
+    "未命名",
+    "未命名 1.base",
+    "未命名.base",
+    "Untitled.base"
+>>>>>>> 96bdb62ac9484bd1e7a086dbf245b66693e2bd3a
   ]
 }
