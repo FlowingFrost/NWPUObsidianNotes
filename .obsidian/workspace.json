@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "024f7670cfcce5ed",
+    "id": "b82e99350617c174",
     "type": "split",
     "children": [
       {
-        "id": "1ba2ec64795c41c5",
+        "id": "b088b608de230749",
         "type": "tabs",
         "children": [
           {
-            "id": "09c4edd2e8460425",
+            "id": "20c06b0025528331",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Column如何使用.md",
+                "file": "大学物理HC(2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Column如何使用"
+              "title": "大学物理HC(2)"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6a84588ce36b0cd9",
+    "id": "91dad98777ddf0f4",
     "type": "split",
     "children": [
       {
-        "id": "254befa59814e924",
+        "id": "148472a203319ecb",
         "type": "tabs",
         "children": [
           {
-            "id": "6f7677e624c7fa32",
+            "id": "11b6cfca24e56849",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "0508ce3b4e04c3e5",
+            "id": "001dfb52ca631102",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,13 +65,13 @@
             }
           },
           {
-            "id": "9c848c028f742170",
+            "id": "082c2dc84b95a950",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "书签"
+              "title": "Bookmarks"
             }
           }
         ]
@@ -81,15 +81,15 @@
     "width": 300
   },
   "right": {
-    "id": "d845efe5af111639",
+    "id": "7cc5f2b1cd910aba",
     "type": "split",
     "children": [
       {
-        "id": "0c1d218a4f07c77a",
+        "id": "1a15291d901d9da5",
         "type": "tabs",
         "children": [
           {
-            "id": "f896a0d3f1ebaa83",
+            "id": "3e0118609e1e0014",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -107,20 +107,21 @@
             }
           },
           {
-            "id": "00909be8ed94e0eb",
+            "id": "a718cca46527f13a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Conda & Python Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "Outgoing links from Conda & Python Commands"
             }
           },
           {
-            "id": "92548ef283695fbc",
+            "id": "e577719ab9770cd1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,21 +132,22 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "标签"
+              "title": "Tags"
             }
           },
           {
-            "id": "3007224b93ea947f",
+            "id": "edd9fed5782b02c8",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Conda & Python Commands.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Outline of Conda & Python Commands"
             }
           }
         ]
@@ -167,8 +169,10 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "09c4edd2e8460425",
+  "active": "20c06b0025528331",
   "lastOpenFiles": [
-    "ReadMe.md"
+    "Column如何使用.md",
+    "ReadMe.md",
+    "大学物理HC(2).md"
   ]
 }
