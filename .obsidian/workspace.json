@@ -1,37 +1,20 @@
 {
   "main": {
-    "id": "b82e99350617c174",
+    "id": "b91a78fc86cbc8a6",
     "type": "split",
     "children": [
       {
-        "id": "b088b608de230749",
+        "id": "3d14b7784882fe4c",
         "type": "tabs",
         "children": [
           {
-            "id": "20c06b0025528331",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大学物理HC(2).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "大学物理HC(2)"
-=======
-        "id": "99917c14b5b925b7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0c309781f483b8f0",
+            "id": "2f6681d2e270c28b",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
               "title": "新标签页"
->>>>>>> 96bdb62ac9484bd1e7a086dbf245b66693e2bd3a
             }
           }
         ]
@@ -40,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "91dad98777ddf0f4",
+    "id": "25fc1437c72a6ccc",
     "type": "split",
     "children": [
       {
-        "id": "148472a203319ecb",
+        "id": "0e0b667b69dcabee",
         "type": "tabs",
         "children": [
           {
-            "id": "11b6cfca24e56849",
+            "id": "2823a6d28acee670",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -61,7 +44,7 @@
             }
           },
           {
-            "id": "001dfb52ca631102",
+            "id": "b9a0dca5257f5559",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -78,13 +61,13 @@
             }
           },
           {
-            "id": "082c2dc84b95a950",
+            "id": "62841f179639653d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "书签"
             }
           }
         ]
@@ -94,15 +77,15 @@
     "width": 300
   },
   "right": {
-    "id": "7cc5f2b1cd910aba",
+    "id": "fb45e7644d1ba48e",
     "type": "split",
     "children": [
       {
-        "id": "1a15291d901d9da5",
+        "id": "4394c7b814df0fc7",
         "type": "tabs",
         "children": [
           {
-            "id": "3e0118609e1e0014",
+            "id": "eb3cb599dd136cf2",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -120,21 +103,20 @@
             }
           },
           {
-            "id": "a718cca46527f13a",
+            "id": "16d8d6f6490261f3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conda & Python Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Conda & Python Commands"
+              "title": "出链"
             }
           },
           {
-            "id": "e577719ab9770cd1",
+            "id": "205025fdb5c5fb3b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -145,22 +127,21 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "标签"
             }
           },
           {
-            "id": "edd9fed5782b02c8",
+            "id": "fcfb680240cdc220",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conda & Python Commands.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Conda & Python Commands"
+              "title": "大纲"
             }
           }
         ]
@@ -179,57 +160,12 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "bases:创建新数据库": false
-    }
-  },
-  "active": "20c06b0025528331",
-  "lastOpenFiles": [
-    "Column如何使用.md",
-    "ReadMe.md",
-    "大学物理HC(2).md"
-=======
       "bases:创建新数据库": false,
-      "pkmer:Open Pkmer Market": false,
-      "obsidian-git:Open Git source control": false
+      "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "0c309781f483b8f0",
+  "active": "2f6681d2e270c28b",
   "lastOpenFiles": [
-    "ReadMe.md",
-    "Toolbar样式.json",
-    "Toolbar样式.txt",
-    "新建文本文档.txt",
-    "Column如何使用.md",
-    "大学物理HC(2)……$2.md",
-    "大学物理HC(2).md",
-    "Untitled.md",
-    "终端命令/Whisper.md",
-    "Unity/Unity资源网站.md",
-    "2025-10-02.md",
-    "Unity",
-    "终端命令/WSL命令.md",
-    "2025-10-01.md",
-    "Obsidian.md",
-    "常用软件.md",
-    "有用的网站.md",
-    "临时安装的软件.md",
-    "CSharp/EvaluatorDesign.md",
-    "CSharp",
-    "终端命令",
-    "终端命令/Conda & Python Commands.md",
-    "终端命令/Ubuntu常用命令.md",
-    "保研.md",
-    "柔性电子.md",
-    "Untitled 1.md",
-    "Welcome.md",
-    "Untitled.canvas",
-    "CSharp/C Sharp的继承机制.md",
-    "README.md",
-    "终端命令/GitHub Copilot快捷键.md",
-    "未命名",
-    "未命名 1.base",
-    "未命名.base",
-    "Untitled.base"
->>>>>>> 96bdb62ac9484bd1e7a086dbf245b66693e2bd3a
+    "ReadMe.md"
   ]
 }
