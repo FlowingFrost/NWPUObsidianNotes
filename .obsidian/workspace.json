@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "b82e99350617c174",
+    "type": "split",
+    "children": [
+      {
+        "id": "5896a747b90d3c55",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "140a96e519b28823",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "临时安装的软件.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "临时安装的软件"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "91dad98777ddf0f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "148472a203319ecb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11b6cfca24e56849",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "001dfb52ca631102",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "082c2dc84b95a950",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7cc5f2b1cd910aba",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a15291d901d9da5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e0118609e1e0014",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Conda & Python Commands.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Conda & Python Commands"
+            }
+          },
+          {
+            "id": "a718cca46527f13a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Conda & Python Commands.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Conda & Python Commands"
+            }
+          },
+          {
+            "id": "e577719ab9770cd1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "edd9fed5782b02c8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Conda & Python Commands.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Conda & Python Commands"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "bases:Create new base": false,
+      "pkmer:Open Pkmer Market": false
+    }
+  },
+  "active": "140a96e519b28823",
+  "lastOpenFiles": [
+    "终端命令/Whisper.md",
+    "Unity/Unity资源网站.md",
+    "2025-10-02.md",
+    "Unity",
+    "终端命令/WSL命令.md",
+    "2025-10-01.md",
+    "Obsidian.md",
+    "常用软件.md",
+    "有用的网站.md",
+    "临时安装的软件.md",
+    "CSharp/EvaluatorDesign.md",
+    "CSharp",
+    "终端命令",
+    "终端命令/Conda & Python Commands.md",
+    "终端命令/Ubuntu常用命令.md",
+    "保研.md",
+    "Untitled.md",
+    "柔性电子.md",
+    "Untitled 1.md",
+    "Welcome.md",
+    "Untitled.canvas",
+    "CSharp/C Sharp的继承机制.md",
+    "README.md",
+    "终端命令/GitHub Copilot快捷键.md",
+    "未命名",
+    "未命名 1.base",
+    "未命名.base",
+    "Untitled.base"
+  ]
+}

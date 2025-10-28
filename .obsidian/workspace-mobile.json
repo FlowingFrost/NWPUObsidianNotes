@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "b843520f72045df9",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcf65428f456ac28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b0765185e47c3db",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "50ae2a13d2cd173b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ed9da4c2627bd8d3",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "文件列表"
+        }
+      },
+      {
+        "id": "165ec593e80d94db",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "搜索"
+        }
+      },
+      {
+        "id": "493abfa4aeaea67d",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "标签"
+        }
+      },
+      {
+        "id": "f7582756a413b992",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "书签"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "691deb02acd99933",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1bc9d606bde34b14",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "大学物理HC(2).md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "反向链接"
+        }
+      },
+      {
+        "id": "9ae71444aed1f7c0",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "大学物理HC(2).md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "出链"
+        }
+      },
+      {
+        "id": "f0bcb0635f759861",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "大学物理HC(2).md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "大纲"
+        }
+      },
+      {
+        "id": "9425e8ab680d7f78",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "插件不再活动"
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "pkmer:Open Pkmer Market": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "6b0765185e47c3db",
+  "lastOpenFiles": [
+    "大学物理HC(2).md",
+    "未命名.canvas",
+    "1740377472784.jpg",
+    "2025-10-27.md"
+  ]
+}
