@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bcf65428f456ac28",
+        "id": "6447f63585f5dc31",
         "type": "tabs",
         "children": [
           {
-            "id": "6b0765185e47c3db",
+            "id": "79e1a403d1805f1c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -157,14 +157,13 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "pkmer:Open Pkmer Market": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "6b0765185e47c3db",
+  "active": "79e1a403d1805f1c",
   "lastOpenFiles": [
     "大学物理HC(2).md",
+    "ReadMe.md",
     "未命名.canvas",
     "1740377472784.jpg",
     "2025-10-27.md"
