@@ -2,5 +2,12 @@
   "pkmer",
   "obsidian-outliner",
   "oz-image-plugin",
+<<<<<<< HEAD
   "obsidian-git"
+=======
+  "obsidian-git",
+  "obsidian-columns",
+  "editing-toolbar",
+  "quick-latex"
+>>>>>>> PhysicsHC_2
 ]
