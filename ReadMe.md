@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
-...
-=======
+
 # 快捷键与布局
 参考WPS智能文档，使用Editing Toolbar实现
 备份文件位于根目录下
@@ -57,4 +55,3 @@ Om:::\Omega;
 ov:::\overrightarrow{#cursor}
 ```
 
->>>>>>> Stashed changes

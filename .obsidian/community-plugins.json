@@ -1,14 +1,7 @@
 [
-<<<<<<< Updated upstream
-  "pkmer",
-  "obsidian-outliner",
-  "oz-image-plugin",
-  "obsidian-git"
-=======
   "obsidian-columns",
   "editing-toolbar",
   "oz-image-plugin",
   "pkmer",
   "quick-latex"
->>>>>>> Stashed changes
 ]
