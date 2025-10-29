@@ -1,7 +1,9 @@
 [
-  "obsidian-columns",
-  "editing-toolbar",
-  "oz-image-plugin",
   "pkmer",
+  "obsidian-outliner",
+  "oz-image-plugin",
+  "obsidian-git",
+  "editing-toolbar",
+  "obsidian-columns",
   "quick-latex"
 ]

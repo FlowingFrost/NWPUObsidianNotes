@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6447f63585f5dc31",
+        "id": "a582b03b06aaf995",
         "type": "tabs",
         "children": [
           {
-            "id": "79e1a403d1805f1c",
+            "id": "c3c3f85ec9262c79",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Column如何使用.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Column如何使用"
             }
           }
         ]
@@ -151,6 +155,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "pkmer:Open Pkmer Market": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -160,10 +165,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "79e1a403d1805f1c",
+  "active": "c3c3f85ec9262c79",
   "lastOpenFiles": [
-    "大学物理HC(2).md",
     "ReadMe.md",
+    "大学物理HC(2).md",
     "未命名.canvas",
     "1740377472784.jpg",
     "2025-10-27.md"

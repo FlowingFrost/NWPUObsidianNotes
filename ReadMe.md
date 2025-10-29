@@ -54,4 +54,3 @@ om:::\omega;
 Om:::\Omega;
 ov:::\overrightarrow{#cursor}
 ```
-
