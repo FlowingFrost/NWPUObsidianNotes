@@ -71,7 +71,7 @@ $d\overrightarrow{B} = k\frac{Idlsin\alpha}{r^2}$,
 ### 二、安培环路定理
 >$\oint_l{\overrightarrow{B}d\overrightarrow{l}} = ?$
 >1. 类比，研究特殊情况：无限长直导线
->![[C3S4.jpg]]
+>![[Physics2_C3S4.jpg]]
 >此环路上，磁场大小方向相同。
 >2. 平面内任意环路
 >$\oint_l{\overrightarrow{B}\cdot d\overrightarrow{l}}=\mu_0\sum\limits_{内}{I_i}$
@@ -90,3 +90,16 @@ $d\overrightarrow{B} = k\frac{Idlsin\alpha}{r^2}$,
 $\overrightarrow{F_L}=q\overrightarrow{v}\times\overrightarrow{B}$
 普遍情况下，空间中电场与磁场同时存在
 $\overrightarrow{F}=$
+
+### 三、有磁介质时磁场基本性质
+1. 高斯定理
+2. 安培环路定理$\oint_l{\overrightarrow{B}\cdot d\overrightarrow{l}}=\mu\sum_{内}{I}=\mu_{0}\sum_{内}{I_i(传感电流)+I_s(磁化电流)}$
+	真空中磁导率$\mu_0$    磁介质磁导率$\mu_r$ 总磁导率$\mu=\mu_0+\mu_r$
+	令磁场强度$\overrightarrow{H}=\frac{\overrightarrow{B}}{\mu}$
+	所以磁场强度是一个辅助物理量反应磁场分布，与所有传导电流和磁化电流有关
+	$\oint_l{\overrightarrow{H}\cdot d\overrightarrow{l} = \sum_内{I_i}}$
+### 四、利用介质场的安培环路定理进行磁场计算
+
+
+# 第四章 电磁感应与电磁场
+世界是对称和谐的：奥斯特 电流→磁场  磁场→？电流     法拉第经过了10年的努力：电磁感应定律
