@@ -1,0 +1,32 @@
+/* 强力标题和内容缩进解决方案 */
+.markdown-reading-view {
+  /* 为阅读模式设置 */
+}
+
+/* 一级标题 */
+.markdown-preview-view h1 {
+  margin-left: 0em !important;
+  padding-left: 0em !important;
+}
+
+/* 二级标题及其后续内容 */
+.markdown-preview-view h2 {
+  margin-left: 1.5em !important;
+  padding-left: 1.5em !important;
+}
+
+.markdown-preview-view h2 ~ * {
+  margin-left: 1.5em !important;
+  padding-left: 1.5em !important;
+}
+
+/* 三级标题及其后续内容 */
+.markdown-preview-view h3 {
+  margin-left: 3em !important;
+  padding-left: 3em !important;
+}
+
+.markdown-preview-view h3 ~ * {
+  margin-left: 3em !important;
+  padding-left: 3em !important;
+}

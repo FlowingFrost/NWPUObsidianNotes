@@ -1,0 +1,31 @@
+/* 编辑模式下标题缩进 */
+.cm-line.HyperMD-header-1 {
+  padding-left: 1.5em !important;
+}
+.cm-line.HyperMD-header-2 {
+  padding-left: 3em !important;
+}
+.cm-line.HyperMD-header-3 {
+  padding-left: 4.5em !important;
+}
+/*
+.cm-line.HyperMD-header-4 {
+  padding-left: 4.5em !important;
+}
+.cm-line.HyperMD-header-5 {
+  padding-left: 6em !important;
+}
+.cm-line.HyperMD-header-6 {
+  padding-left: 7.5em !important;
+}*/
+
+/* 可选：如果你希望编辑模式下标题后面的内容也一起缩进 */
+.cm-line.HyperMD-header-1 ~ .cm-line:not(.HyperMD-header-1) {
+  padding-left: 1.5em !important;
+}
+.cm-line.HyperMD-header-2 ~ .cm-line:not(.HyperMD-header-1):not(.HyperMD-header-2) {
+  padding-left: 3em !important;
+}
+.cm-line.HyperMD-header-3 ~ .cm-line:not(.HyperMD-header-1):not(.HyperMD-header-2):not(.HyperMD-header-3) {
+  padding-left: 4.5em !important;
+}

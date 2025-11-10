@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a167efe576e22885",
+        "id": "3d00db26fd40f650",
         "type": "tabs",
         "children": [
           {
-            "id": "31b9878bf1e28de8",
+            "id": "93787dbdc70448cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,11 +165,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "31b9878bf1e28de8",
+  "active": "93787dbdc70448cb",
   "lastOpenFiles": [
+    "Screenshot_20251107_114858_com.huawei.hinote.png",
+    "Screenshot_20251107_113054_com.huawei.hinote.png",
+    "Screenshot_20251107_113143_com.huawei.hinote.png",
+    "复变函数/复变函数_C1S2.png",
+    "复变函数与积分变换.md",
+    "复变函数/复变函数_C1S2_2.png",
     "ReadMe.md",
     "复变函数",
-    "复变函数与积分变换.md",
     "复变函数/复变函数_C1S1.jpg",
     "大学物理HC(2).md",
     "大学物理HC(2)/Physics2_C3S4.jpg",
