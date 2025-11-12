@@ -15,6 +15,7 @@
 | `\quad`  | 1em 空格           |
 | `\qquad` | 2em 空格           |
 为公式插入不等号：\leq
+箭头上标：\xrightarrow{}
 
 使用Quick Latex并加入自定义命令
 ```QuickLaTex
