@@ -1,8 +1,17 @@
+---
+cssclasses:
+  - page-view
+---
 本地分支obsidian在远端是Obsidian
+
+# obsidian知识
+导入css样式：
+
 # 快捷键与布局
 参考WPS智能文档，使用Editing Toolbar实现
 备份文件位于根目录下
 
+---
 # 公式
 为公式插入空格：
 
@@ -85,6 +94,7 @@
 | $\omega$ | 小写欧米伽 | `\omega` |
 | $\Omega$ | 大写欧米伽 | `\Omega` |
 
+---
 ## 6. 矩阵与行列式
 | 公式 | 描述 | 代码 |
 |---|---|---|
@@ -136,6 +146,7 @@
 | $\mathrm{sin}$ | 正体（operator） | `\mathrm{sin}` |
 | $\mathbf{x}$ | 粗体 | `\mathbf{x}` |
 
+---
 
 使用Quick Latex并加入自定义命令
 ```QuickLaTex
@@ -186,6 +197,7 @@ om:::\omega;
 Om:::\Omega;
 ov:::\overrightarrow{#cursor}
 ```
+
 
 
 在 LaTeX 中，如果你想把“竖线”画在 `\frac{dy}{dx}` 的右边、并标明“x=x₀”这个条件，正确的写法是：

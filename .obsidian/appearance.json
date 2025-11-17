@@ -1,4 +1,9 @@
 {
   "showRibbon": true,
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [
+    "columnViewPro"
+  ],
+  "baseFontSizeAction": false,
+  "baseFontSize": 16,
+  "nativeMenus": false
 }

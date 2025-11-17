@@ -1,0 +1,214 @@
+/* @settings
+name: 【分栏】分栏布局(Column-Page)
+id: ColumnPage
+settings:
+  - id: column-page
+    title: 分列布局(Column-Page)
+    type: class-toggle
+    addCommand: true
+  - id: column-page-width
+    title: 分栏宽度
+    description: 分栏最小宽度，单位为px
+    type: variable-number
+    default: 550
+    format: px
+  - id: column-page-type
+    title: 默认分布模式
+    type: class-select
+    allowEmpty: false
+    options:
+      - value: column-h
+        label: 横向模式，高度不变，不能跨列
+      - value: column-v
+        label: 纵向模式，宽度不变，可以跨列
+    default: column-h
+  - id: page-size-control
+    title: 页面尺寸控制
+    type: heading
+    level: 2
+    collapsed: true
+  - id: page-width-scale
+    title: 页面宽度缩放
+    description: 控制整个页面的宽度缩放比例
+    type: variable-number
+    default: 100
+    format: '%'
+  - id: page-height-scale
+    title: 页面高度缩放
+    description: 控制整个页面的高度缩放比例
+    type: variable-number
+    default: 100
+    format: '%'
+*/
+/*! 分栏布局页面  by 熊猫 */
+body {
+  --column-page-width: 550px;
+  --page-width-scale: 100%;
+  --page-height-scale: 100%;
+}
+
+/* 页面尺寸控制 */
+.column-page-container {
+  transform-origin: top left;
+  transform: scale(var(--page-width-scale), var(--page-height-scale));
+  width: calc(100% / var(--page-width-scale));
+  height: calc(100% / var(--page-height-scale));
+}
+
+/* 页面尺寸预设类 */
+.page-size-small {
+  --page-width-scale: 80%;
+  --page-height-scale: 80%;
+}
+
+.page-size-large {
+  --page-width-scale: 120%;
+  --page-height-scale: 120%;
+}
+
+.page-size-fullwidth {
+  --page-width-scale: 100%;
+  --page-height-scale: 100%;
+  --column-page-width: 800px !important;
+}
+
+.page-size-compact {
+  --page-width-scale: 90%;
+  --page-height-scale: 90%;
+  --column-page-width: 450px !important;
+}
+
+/* 手动分栏标记 */
+.column-break {
+  break-after: column;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+}
+
+.column-break-before {
+  break-before: column;
+}
+
+.column-break-after {
+  break-after: column;
+}
+
+/* 分栏区域容器 */
+.column-region {
+  break-inside: avoid;
+  margin-bottom: 2rem;
+}
+
+.column-span-all {
+  column-span: all;
+}
+
+.column-span-none {
+  column-span: none;
+}
+
+/* 分栏布局样式 */
+.column-v .column-page,
+.column-page-v{
+  & .markdown-preview-section {
+    --file-line-width: 100% !important;
+
+    & .snw-header-count-wrapper {
+      right: unset;
+    }
+
+    column-gap: 2rem;
+    column-width: var(--column-page-width) !important;
+    column-rule: 2px dashed var(--background-modifier-border);
+    column-fill: balance;
+    /* 缩减底部空白 不然可能加载成空白页 */
+    padding-bottom: 0px !important;
+    min-height: unset !important;
+
+    /* 字体大小和行内高度改变，你可以不改变，并删掉 */
+    font-size: 18px !important;
+    line-height: 160%;
+
+    /* 标题更紧凑一点 */
+    & h2, h3, h4, h5, h6 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    & p {
+      break-inside: avoid;
+    }
+
+    /* 选择不分列的元素，默认为h1，hr */
+    & h1, hr {
+      column-span: all;
+    }
+
+    /* 多列布局后，部分列表圆点会错位，这样可以避免 */
+    & .list-bullet {
+      position: absolute;
+    }
+
+    /* 手动分栏标记样式 */
+    & .column-break {
+      break-after: column;
+    }
+  }
+
+  &.column-h2 h2 {
+    column-span: all;
+  }
+}
+
+.column-h .column-page,
+.column-page-h{
+  & .markdown-preview-section {
+    --file-line-width: 100% !important;
+
+    & .snw-header-count-wrapper {
+      right: unset;
+    }
+
+    column-gap: 2rem;
+    column-width: var(--column-page-width) !important;
+    column-rule: 2px dashed var(--background-modifier-border);
+    column-fill: auto;
+    height: 100%;
+    /* 缩减底部空白 不然可能加载成空白页 */
+    padding-bottom: 0px !important;
+    min-height: unset !important;
+
+    /* 字体大小和行内高度改变，你可以不改变，并删掉 */
+    font-size: 18px !important;
+    line-height: 160%;
+
+    /* 标题更紧凑一点 */
+    & h2, h3, h4, h5, h6 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    /* 多列布局后，部分列表圆点会错位，这样可以避免 */
+    & .list-bullet {
+      position: absolute;
+    }
+
+    /* 手动分栏标记样式 */
+    & .column-break {
+      break-after: column;
+    }
+  }
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .column-v .column-page .markdown-preview-section,
+  .column-page-v .markdown-preview-section,
+  .column-h .column-page .markdown-preview-section,
+  .column-page-h .markdown-preview-section {
+    column-width: 100% !important;
+    column-count: 1;
+  }
+}
