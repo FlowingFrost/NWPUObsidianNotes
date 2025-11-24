@@ -138,13 +138,13 @@ cssclasses:
 | $a \perp b$ | 垂直 | `a \perp b` |
 
 ## 9. 数学字体切换
-| 公式 | 描述 | 代码 |
-|---|---|---|
-| $\mathbb{R}$ | 黑板粗体（需 `amsfonts`） | `\mathbb{R}` |
-| $\mathcal{L}$ | 手写体 | `\mathcal{L}` |
-| $\mathtt{A}$ | 打字机体 | `\mathtt{A}` |
-| $\mathrm{sin}$ | 正体（operator） | `\mathrm{sin}` |
-| $\mathbf{x}$ | 粗体 | `\mathbf{x}` |
+| 公式             | 描述                 | 代码             |
+| -------------- | ------------------ | -------------- |
+| $\mathbb{R}$   | 黑板粗体（需 `amsfonts`） | `\mathbb{R}`   |
+| $\mathcal{L}$  | 手写体                | `\mathcal{L}`  |
+| $\mathtt{A}$   | 打字机体               | `\mathtt{A}`   |
+| $\mathrm{sin}$ | 正体（operator）       | `\mathrm{sin}` |
+| $\mathbf{x}$   | 粗体                 | `\mathbf{x}`   |
 
 ---
 
