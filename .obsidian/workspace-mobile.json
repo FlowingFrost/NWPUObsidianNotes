@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9ba195eaa4eccfd6",
+        "id": "7e9f9f0e1248fb0c",
         "type": "tabs",
         "children": [
           {
-            "id": "ba6e390def252183",
+            "id": "5c36f0f13812a133",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "canvas",
+              "state": {
+                "file": "第一节.canvas",
+                "viewState": {
+                  "x": 69.69610734871242,
+                  "y": 1337.1237823287515,
+                  "zoom": -0.3266197902120844
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "第一节"
             }
           }
         ]
@@ -127,7 +134,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "理论力学.md",
+            "file": "第一节.canvas",
             "followCursor": true,
             "showSearch": false,
             "searchQuery": ""
@@ -162,30 +169,31 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "ba6e390def252183",
+  "active": "5c36f0f13812a133",
   "lastOpenFiles": [
-    "理论力学.md",
     "复变函数与积分变换.md",
+    "技术文档.md",
+    "第一节.canvas",
+    "未命名.base",
+    "复变函数习题.md",
+    "ReadMe.md",
+    "Column如何使用.md",
+    "大学物理HC(2).md",
+    "理论力学.md",
     "1763693545637.jpg",
     "1763693540184.jpg",
     "1763693363826.jpg",
     "1763693362014.jpg",
-    "复变函数习题.md",
-    "Column如何使用.md",
     "1763610604234.jpg",
-    "大学物理HC(2).md",
     "阅读模式专属横向页面布局.md",
-    "ReadMe.md",
     "复变函数/1763001448708.jpg",
     "复变函数/1763609196240.jpg",
     "复变函数/1763609193767.jpg",
     "复变函数/1763609185550.jpg",
     "复变函数/1763609182518.jpg",
     "理论力学生词.md",
-    "技术文档.md",
     "复变函数",
     "大学物理HC(2)",
-    "未命名.canvas",
     "2025-10-27.md"
   ]
 }

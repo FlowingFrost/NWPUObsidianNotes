@@ -183,3 +183,6 @@ $\large\sqrt{\overline{v^2}}=v_{rms}$ 方均根速率，是速率的量纲  其�
 要保证粒子能够通过，$t=\frac{l}{v}, \omega t \leq\phi$ 由此可以筛选不同速度的粒子
 #### 一、
 ？
+
+
+$f(v) = 4\pi \left( \frac{m}{2\pi k T} \right)^{\frac{3}{2}} v^2 \exp\left(-\frac{m v^2}{2 k T}\right)$
