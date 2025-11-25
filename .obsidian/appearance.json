@@ -1,7 +1,8 @@
 {
   "showRibbon": true,
   "enabledCssSnippets": [
-    "columnViewPro"
+    "columnViewPro",
+    "SmallerFont"
   ],
   "baseFontSizeAction": false,
   "baseFontSize": 16,

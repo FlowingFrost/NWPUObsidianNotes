@@ -1,25 +1,26 @@
 ---
 cssclasses:
-  - page-view
 ---
-本地分支obsidian在远端是Obsidian
 
-# obsidian知识
-导入css样式：
 
+# 最新知识
 思维导图：
 ````obsidian
-```mindmap
+```mermaid
+mindmap
 root()
 ```
 ````
-# 快捷键与布局
+### 快捷键与布局
 参考WPS智能文档，使用Editing Toolbar实现
 备份文件位于根目录下
 
----
-# 公式
-为公式插入空格：
+### 公式
+无限符号`\infty`
+
+# LaTex公式
+
+## 空格：
 
 | 命令       | 效果               |
 | -------- | ---------------- |
@@ -31,6 +32,7 @@ root()
 | `\qquad` | 2em 空格           |
 为公式插入不等号：\leq
 箭头上标：\xrightarrow{}
+
 ## 求导
 | 效果                                    | 描述          | 代码                                          |
 | ------------------------------------- | ----------- | ------------------------------------------- |
@@ -56,6 +58,7 @@ root()
 | $\iint_D f(x,y)\,\mathrm{d}\sigma$ | 双重积分 | `\iint_D f(x,y)\,\mathrm{d}\sigma` |
 | $\prod_{i=1}^n x_i$ | 连乘 | `\prod_{i=1}^n x_i` |
 | $\int\limits_0^1$ | 极限式积分（上下限在正上/正下） | `\int\limits_0^1` |
+
 
 ## 4. 集合与逻辑
 | 公式 | 描述 | 代码 |
@@ -100,7 +103,7 @@ root()
 | $\omega$ | 小写欧米伽 | `\omega` |
 | $\Omega$ | 大写欧米伽 | `\Omega` |
 
----
+
 ## 6. 矩阵与行列式
 | 公式 | 描述 | 代码 |
 |---|---|---|
@@ -125,6 +128,7 @@ root()
 | $\widetilde{abc}$ | 宽波浪 | `\widetilde{abc}` |
 | $f^*$ | 星号 | `f^*` |
 | $\bar{z}$ | 共轭 | `\bar{z}` |
+
 
 ## 8. 二元运算符与关系符
 | 公式 | 描述 | 代码 |
@@ -152,9 +156,7 @@ root()
 | $\mathrm{sin}$ | 正体（operator）       | `\mathrm{sin}` |
 | $\mathbf{x}$   | 粗体                 | `\mathbf{x}`   |
 
----
-
-使用Quick Latex并加入自定义命令
+# 使用Quick Latex并加入自定义命令
 ```QuickLaTex
 al:::\begin{align*}#cursor\end{align*};
 bi:::\binom{#cursor}{#tab};
@@ -203,7 +205,6 @@ om:::\omega;
 Om:::\Omega;
 ov:::\overrightarrow{#cursor}
 ```
-
 
 
 在 LaTeX 中，如果你想把“竖线”画在 `\frac{dy}{dx}` 的右边、并标明“x=x₀”这个条件，正确的写法是：
