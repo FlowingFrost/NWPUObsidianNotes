@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f9cfebb3b132d9ea",
+        "id": "abfe39f3b438b266",
         "type": "tabs",
         "children": [
           {
-            "id": "35a751db8fbe82fc",
+            "id": "59a60b4e4dba52ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大学物理HC(2).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "大学物理HC(2)"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.50152587890625,
-    "collapsed": true
+    "width": 224.50152587890625
   },
   "right": {
     "id": "fb45e7644d1ba48e",
@@ -148,8 +143,19 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "9c9c3f5eb7712ded",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Copilot Chat"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -169,10 +175,10 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "35a751db8fbe82fc",
+  "active": "59a60b4e4dba52ab",
   "lastOpenFiles": [
-    "Obsidian小知识.md",
     "大学物理HC(2).md",
+    "Obsidian小知识.md",
     "复变函数与积分变换.md",
     "TempWorkspace/千问-复变函数.md",
     "TempWorkspace/千问.md",
