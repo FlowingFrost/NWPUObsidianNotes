@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "abfe39f3b438b266",
+        "id": "b0aff39b34ffdb50",
         "type": "tabs",
         "children": [
           {
-            "id": "59a60b4e4dba52ab",
+            "id": "da4b6ab1827c7cf9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "理论力学.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "理论力学"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.50152587890625
+    "width": 224.50152587890625,
+    "collapsed": true
   },
   "right": {
     "id": "fb45e7644d1ba48e",
@@ -175,11 +180,13 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "59a60b4e4dba52ab",
+  "active": "da4b6ab1827c7cf9",
   "lastOpenFiles": [
-    "大学物理HC(2).md",
-    "Obsidian小知识.md",
     "复变函数与积分变换.md",
+    "大学物理HC(2).md",
+    "理论力学.md",
+    "复变函数习题.md",
+    "Obsidian小知识.md",
     "TempWorkspace/千问-复变函数.md",
     "TempWorkspace/千问.md",
     "横向页面示例.md",
@@ -193,7 +200,6 @@
     "复变函数/1763693545637.jpg",
     "TempWorkspace/DeepSeek.md",
     "TempWorkspace",
-    "理论力学.md",
     "未命名.base",
     "复变函数/复变函数_C1S6_2.3.png",
     "复变函数/复变函数_C2S1_2.1.png",
