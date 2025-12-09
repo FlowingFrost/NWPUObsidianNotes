@@ -105,14 +105,14 @@ root()
 
 
 ## 6. 矩阵与行列式
-| 公式 | 描述 | 代码 |
-|---|---|---|
-| $\begin{pmatrix} a & b \end{pmatrix}$ | 行矩阵 | `\begin{pmatrix} a & b \end{pmatrix}` |
-| $\begin{pmatrix} a \\ b \end{pmatrix}$ | 列矩阵 | `\begin{pmatrix} a \\ b \end{pmatrix}` |
-| $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ | 方阵 | `\begin{pmatrix} a & b \\ c & d \end{pmatrix}` |
-| $\begin{vmatrix} a & b \\ c & d \end{vmatrix}$ | 行列式 | `\begin{vmatrix} a & b \\ c & d \end{vmatrix}` |
+| 公式                                                   | 描述   | 代码                                                   |
+| ---------------------------------------------------- | ---- | ---------------------------------------------------- |
+| $\begin{pmatrix} a & b \end{pmatrix}$                | 行矩阵  | `\begin{pmatrix} a & b \end{pmatrix}`                |
+| $\begin{pmatrix} a \\ b \end{pmatrix}$               | 列矩阵  | `\begin{pmatrix} a \\ b \end{pmatrix}`               |
+| $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$       | 方阵   | `\begin{pmatrix} a & b \\ c & d \end{pmatrix}`       |
+| $\begin{vmatrix} a & b \\ c & d \end{vmatrix}$       | 行列式  | `\begin{vmatrix} a & b \\ c & d \end{vmatrix}`       |
 | $\begin{cases} x, & x\ge 0 \\ -x, & x<0 \end{cases}$ | 分段函数 | `\begin{cases} x, & x\ge 0 \\ -x, & x<0 \end{cases}` |
-| \begin{align} a &= b+c \\ &= d+e \end{align} | 多行对齐 | `\begin{align} a &= b+c \\ &= d+e \end{align}` |
+| $\begin{align} a &= b+c \\ &= d+e \end{align}$       | 多行对齐 | `\begin{align} a &= b+c \\ &= d+e \end{align}`       |
 
 ## 7. 常用修饰符
 | 公式 | 描述 | 代码 |

@@ -268,6 +268,11 @@
       "icon": "vertical-split"
     },
     {
+      "id": "editing-toolbar:custom-custom-graph_LR",
+      "name": "Editing Toolbar: 流程图",
+      "icon": "codeblock-glyph"
+    },
+    {
       "id": "editing-toolbar:toggle-inline-math",
       "name": "Inline math",
       "icon": "lucide-sigma"
@@ -700,12 +705,22 @@
     {
       "id": "custom-column-CodeblockSyntax-basic",
       "name": "分栏",
-      "prefix": "````col\n```col-md\n",
-      "suffix": "```\n```col-md\n第二栏内容```\n````",
+      "prefix": "````col\n```col-md\n请输入内容",
+      "suffix": "\n```\n```col-md\n第二栏内容\n```\n````",
       "char": 0,
       "line": 0,
       "islinehead": false,
       "icon": "two-columns"
+    },
+    {
+      "id": "custom-custom-graph_LR",
+      "name": "流程图",
+      "prefix": "```mermaid\n %%{init: {'flowchart': { 'useMaxWidth': true } }}%% \ngraph LR  \n",
+      "suffix": "\n```",
+      "char": 0,
+      "line": 0,
+      "islinehead": false,
+      "icon": "codeblock-glyph"
     }
   ],
   "viewTypeSettings": {},

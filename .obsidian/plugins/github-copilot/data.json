@@ -7,7 +7,7 @@
     "cancel": "Escape",
     "request": "Cmd-Shift-/",
     "partial": "Cmd-Shift-.",
-    "next": "Cmd-Shift-ArrowDown",
+    "next": "Ctrl-ArrowRight",
     "disable": "Cmd-Shift-ArrowRight"
   },
   "suggestionDelay": 500,
