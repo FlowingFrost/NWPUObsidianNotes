@@ -207,20 +207,8 @@ ov:::\overrightarrow{#cursor}
 ```
 
 
-在 LaTeX 中，如果你想把“竖线”画在 `\frac{dy}{dx}` 的右边、并标明“x=x₀”这个条件，正确的写法是：
-
-\[
-f'(x_0) = \left. \frac{dy}{dx} \right|_{x=x_0}
-\]
-
-解释：
-
-- `\left.` 是一个“看不见的左定界符”，它告诉 LaTeX 后面要配对的右定界符（这里是 `\right|`）应该根据中间内容自动调整大小。
-- `\right|` 就是那条竖线，它会根据前面 `\frac{dy}{dx}` 的高度自动伸缩。
-- `_{x=x_0}` 把下标“x=x₀”放在竖线的右下角。
-
-这样渲染出来的效果就是：
-
-\[
-$f'(x_0) = \left. \frac{dy}{dx} \right|_{x=x_0}$
-\]
+其它拓展需要：
+字体：
+大:::{\large#cursor};
+小:::{\small#cursor};
+花体:::{\mathcal{#cursor}}
