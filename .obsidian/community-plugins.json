@@ -1,10 +1,11 @@
 [
   "pkmer",
-  "obsidian-outliner",
   "obsidian-git",
   "editing-toolbar",
   "obsidian-columns",
   "quick-latex",
   "obsidian-style-settings",
+  "github-copilot",
+  "remember-cursor-position",
   "floating-toc"
 ]

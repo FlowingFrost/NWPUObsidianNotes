@@ -47,6 +47,16 @@ col-md列容器
 
 
 ### col 代码块设置
+用法
+`````markdown
+````col
+```col-md
+参数
+===
+正文
+```
+````
+`````
 
 ```markdown
 height=值          # 列组高度 (CSS值 或 "shortest")

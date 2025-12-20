@@ -15,5 +15,6 @@
     "editor:add-cursor-above"
   ],
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "vimMode": false
 }
