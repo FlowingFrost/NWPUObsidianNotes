@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ad6b3683da5d9ca2",
+        "id": "e06105e68a450345",
         "type": "tabs",
         "children": [
           {
-            "id": "d82fdb3afadf8912",
+            "id": "cad6c2a84ea43928",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "形势与政策.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "形势与政策"
             }
           }
         ]
@@ -161,9 +165,11 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "d82fdb3afadf8912",
+  "active": "cad6c2a84ea43928",
   "lastOpenFiles": [
+    "形势与政策.md",
     "理论力学.md",
+    "理论力学生词.md",
     "复变函数习题.md",
     "复变函数与积分变换.md",
     "ReadMe.md",
@@ -183,7 +189,6 @@
     "复变函数/1763609196240.jpg",
     "复变函数/1763609193767.jpg",
     "复变函数/1763609185550.jpg",
-    "理论力学生词.md",
     "复变函数",
     "大学物理HC(2)",
     "2025-10-27.md"
