@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bb21d8bf22f7306e",
+        "id": "701b3f130e51bc97",
         "type": "tabs",
         "children": [
           {
-            "id": "04d2aad91479569e",
+            "id": "2c7518f296b51a65",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "复变函数知识点.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "复变函数知识点"
             }
           }
         ]
@@ -127,6 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
+            "file": "复变函数与积分变换.md",
             "followCursor": true,
             "showSearch": false,
             "searchQuery": ""
@@ -161,15 +166,23 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "04d2aad91479569e",
+  "active": "2c7518f296b51a65",
   "lastOpenFiles": [
-    "复变函数第四章第一节第二节.canvas",
-    "复变函数知识点.md",
     "复变函数与积分变换.md",
+    "复变函数知识点.md",
+    "概率论与数理统计.md",
+    "概率论.md",
+    "IMG_7893.jpg",
+    "IMG_7892.jpg",
+    "复变函数第四章第一节第二节.canvas",
+    "IMG_7890.png",
+    "IMG_7889 1.png",
+    "IMG_7889.png",
+    "IMG_7888.png",
+    "复变函数习题.md",
     "形势与政策.md",
     "理论力学.md",
     "理论力学生词.md",
-    "复变函数习题.md",
     "ReadMe.md",
     "大学物理HC(2).md",
     "理论力学_11.3-解题步骤.jpg",
@@ -179,13 +192,7 @@
     "1763693545637.jpg",
     "1763693540184.jpg",
     "1763693363826.jpg",
-    "1763693362014.jpg",
-    "1763610604234.jpg",
     "阅读模式专属横向页面布局.md",
-    "复变函数/1763001448708.jpg",
-    "复变函数/1763609196240.jpg",
-    "复变函数/1763609193767.jpg",
-    "复变函数/1763609185550.jpg",
     "复变函数",
     "大学物理HC(2)",
     "2025-10-27.md"
