@@ -11,10 +11,14 @@
             "id": "769fc973a1c6081e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "概率论复习知识点.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "概率论复习知识点"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.50152587890625,
-    "collapsed": true
+    "width": 224.50152587890625
   },
   "right": {
     "id": "fb45e7644d1ba48e",
@@ -178,8 +181,8 @@
   },
   "active": "769fc973a1c6081e",
   "lastOpenFiles": [
-    "概率论复习知识点.md",
     "概率论复习知识点补充.md",
+    "概率论复习知识点.md",
     "复变函数与积分变换.md",
     "工程数学.md",
     "概率论与数理统计.md",
