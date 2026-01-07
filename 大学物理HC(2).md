@@ -1,5 +1,169 @@
 
 
+# 第三篇 电磁学
+## 第十二章 真空中的静电场
+### §12.1 电荷 库仑定律
+#### 一、电荷的基本性质
+1. **两种电荷**：自然界只存在两种电荷，即正电荷和负电荷。同种电荷相斥，异种电荷相吸。
+2. **电荷的量子化**：任何带电体的电荷量都是电子电荷e的整数倍，即 $q = \pm Ne$，其中 $e = 1.60217733 \times 10^{-19} C$
+3. **电荷守恒定律**：在一个与外界没有电荷交换的系统内，正、负电荷的代数和在任何物理过程中始终保持不变。
+
+#### 二、点电荷
+当带电体本身的线度比起它与其他带电体之间的距离小得多时，该带电体可以看作一个带电的几何点，称为点电荷。点电荷是带电体的理想化模型。
+
+#### 三、库仑定律
+真空中两个静止的点电荷之间相互作用力的大小与这两个点电荷的电量的乘积成正比，与它们之间距离的平方成反比，作用力的方向沿着它们的连线。
+
+$F = \frac{1}{4\pi\varepsilon_0}\frac{q_1q_2}{r^2}$
+
+矢量形式：$\vec{F_{12}} = \frac{1}{4\pi\varepsilon_0}\frac{q_1q_2}{r^2}\vec{r_{12}}$
+
+其中 $\varepsilon_0 = 8.854187817 \times 10^{-12} C^2 \cdot N^{-1} \cdot m^{-2}$ 为真空介电常数。
+
+库仑定律的适用条件：
+1. 真空中
+2. 静止的点电荷
+3. 静电荷之间的作用
+
+#### 四、静电场力叠加原理
+当空间有几个点电荷同时存在时，任一点电荷所受的总的静电力等于其他各点电荷单独存在时分别作用于该电荷的静电力的矢量和。
+
+### §12.2 真空中的静电场 电场强度
+#### 一、电场
+电荷之间的相互作用是通过电场来实现的。电场是物质的一种特殊形态，具有能量和动量。
+
+#### 二、电场强度
+电场中某点的电场强度在数值上等于单位正电荷在该点所受的电场力。
+
+$\vec{E} = \frac{\vec{F}}{q_0}$
+
+其中 $q_0$ 是试探电荷，且 $q_0 \to 0$ 以避免对原电场的影响。
+
+电场强度的单位：$N \cdot C^{-1}$ 或 $V \cdot m^{-1}$
+
+#### 三、电场强度的计算
+1. **点电荷的电场强度**：
+   $\vec{E} = \frac{1}{4\pi\varepsilon_0}\frac{q}{r^2}\vec{r_0}$
+
+2. **点电荷系的电场强度**（场强叠加原理）：
+   $\vec{E} = \sum_{i=1}^{n} \vec{E_i} = \sum_{i=1}^{n} \frac{1}{4\pi\varepsilon_0}\frac{q_i}{r_i^2}\vec{r_{0i}}$
+
+3. **连续分布电荷的电场强度**：
+   - 电荷体密度：$\rho = \frac{dq}{dV}$，$d\vec{E} = \frac{1}{4\pi\varepsilon_0}\frac{dq}{r^2}\vec{r_0} = \frac{1}{4\pi\varepsilon_0}\frac{\rho dV}{r^2}\vec{r_0}$
+   - 电荷面密度：$\sigma = \frac{dq}{dS}$，$d\vec{E} = \frac{1}{4\pi\varepsilon_0}\frac{\sigma dS}{r^2}\vec{r_0}$
+   - 电荷线密度：$\lambda = \frac{dq}{dl}$，$d\vec{E} = \frac{1}{4\pi\varepsilon_0}\frac{\lambda dl}{r^2}\vec{r_0}$
+
+   总电场强度为：$\vec{E} = \int d\vec{E}$
+
+#### 四、典型带电体的电场强度
+1. **无限长均匀带电直线**（线电荷密度为λ）：
+   $E = \frac{\lambda}{2\pi\varepsilon_0 r}$
+
+2. **半径为R的均匀带电圆环轴线上一点**（总电荷为q）：
+   $E = \frac{1}{4\pi\varepsilon_0}\frac{qx}{(R^2+x^2)^{3/2}}$
+
+3. **半径为R的均匀带电圆盘轴线上一点**（电荷面密度为σ）：
+   $E = \frac{\sigma}{2\varepsilon_0}\left(1-\frac{x}{\sqrt{R^2+x^2}}\right)$
+
+4. **无限大均匀带电平面**（电荷面密度为σ）：
+   $E = \frac{\sigma}{2\varepsilon_0}$
+
+5. **电偶极子**（电偶极矩 $\vec{p_e} = q\vec{l}$，其中 $\vec{l}$ 由负电荷指向正电荷）：
+   - 延长线上一点：$E = \frac{1}{2\pi\varepsilon_0}\frac{p_e}{r^3}$
+   - 中垂线上一点：$E = \frac{1}{4\pi\varepsilon_0}\frac{p_e}{r^3}$
+
+### §12.3 电场强度通量 高斯定理
+#### 一、电场线
+电场线是用来形象描述电场的曲线，曲线上每一点的切线方向表示该点电场强度的方向，电场线的疏密表示电场强度的大小。
+
+电场线的性质：
+1. 电场线起于正电荷（或无穷远处），终止于负电荷（或无穷远处）
+2. 任何两条电场线不能相交
+3. 静电场的电场线不闭合
+
+#### 二、电场强度通量
+电场强度通量是通过电场中某一曲面的电场线条数。
+
+- 对于垂直于电场方向的平面：$\Phi_e = ES$
+- 对于任意曲面：$d\Phi_e = \vec{E} \cdot d\vec{S} = EdS\cos\theta$
+- 通过整个曲面的电通量：$\Phi_e = \int_S \vec{E} \cdot d\vec{S}$
+
+#### 三、高斯定理
+真空中的静电场内，通过任意闭合曲面的电场强度通量等于该闭合曲面所包围的电量的代数和除以真空介电常数。
+
+$\oint_S \vec{E} \cdot d\vec{S} = \frac{1}{\varepsilon_0}\sum q_{内}$
+
+高斯定理的物理意义：
+- 电场强度通量只与闭合曲面内的电荷有关，与闭合曲面外的电荷无关
+- 静电场是有源场，电荷是静电场的源
+
+#### 四、高斯定理的应用
+利用高斯定理计算电场强度的条件：电荷分布具有高度的对称性（球对称、轴对称、面对称）
+
+典型的对称性分布：
+1. **球对称分布**（如均匀带电球体、均匀带电球面）：
+   - 高斯面：同心球面
+   - 电场强度：$E = \frac{1}{4\pi\varepsilon_0}\frac{Q}{r^2}$（r>R时），$E = \frac{1}{4\pi\varepsilon_0}\frac{Qr}{R^3}$（r<R时）
+
+2. **轴对称分布**（如无限长均匀带电直线、无限长均匀带电圆柱）：
+   - 高斯面：同轴圆柱面
+   - 电场强度：$E = \frac{\lambda}{2\pi\varepsilon_0 r}$
+
+3. **面对称分布**（如无限大均匀带电平面、平行平面）：
+   - 高斯面：柱形高斯面
+   - 电场强度：$E = \frac{\sigma}{2\varepsilon_0}$
+
+### §12.4 静电场的环路定理 电势
+#### 一、静电场力做功的特点
+静电场力做功与路径无关，只与始末位置有关。这表明静电场是保守场，静电场力是保守力。
+
+电场强度沿任意闭合路径的线积分等于零：$\oint_L \vec{E} \cdot d\vec{l} = 0$
+
+#### 二、电势能
+电荷在静电场中具有的势能称为电势能。电荷q在静电场中从a点移动到b点时，电场力做的功等于电势能的减少。
+
+$A_{ab} = W_a - W_b$
+
+电势能的参考点通常选择在无穷远处，即 $W_{\infty} = 0$。
+
+#### 三、电势
+电场中某点的电势在数值上等于单位正电荷在该点的电势能。
+
+$U_a = \frac{W_a}{q_0}$
+
+电势是标量，可正可负。
+
+电势的计算：
+1. **点电荷的电势**：$U = \frac{1}{4\pi\varepsilon_0}\frac{q}{r}$
+2. **点电荷系的电势**（电势叠加原理）：$U = \sum_{i=1}^{n} U_i = \sum_{i=1}^{n} \frac{1}{4\pi\varepsilon_0}\frac{q_i}{r_i}$
+3. **连续分布电荷的电势**：
+   - 体分布：$U = \frac{1}{4\pi\varepsilon_0}\int_V \frac{\rho dV}{r}$
+   - 面分布：$U = \frac{1}{4\pi\varepsilon_0}\int_S \frac{\sigma dS}{r}$
+   - 线分布：$U = \frac{1}{4\pi\varepsilon_0}\int_L \frac{\lambda dl}{r}$
+
+#### 四、电势差
+两点间的电势差等于将单位正电荷从一点移动到另一点时电场力做的功。
+
+$U_{ab} = U_a - U_b = \int_a^b \vec{E} \cdot d\vec{l}$
+
+### §12.5 等势面 电场强度与电势的微分关系
+#### 一、等势面
+电场中电势相等的点构成的曲面称为等势面。
+
+等势面的性质：
+1. 在任何静电场中，沿等势面移动电荷时，电场力不做功
+2. 电场线与等势面处处正交
+3. 电场线的方向是电势降低的方向
+4. 等势面密集的地方电场强度大，等势面稀疏的地方电场强度小
+
+#### 二、电场强度与电势的微分关系
+电场强度等于电势梯度的负值：$\vec{E} = -\nabla U = -\left(\frac{\partial U}{\partial x}\vec{i} + \frac{\partial U}{\partial y}\vec{j} + \frac{\partial U}{\partial z}\vec{k}\right)$
+
+在直角坐标系中：
+- $E_x = -\frac{\partial U}{\partial x}$
+- $E_y = -\frac{\partial U}{\partial y}$  
+- $E_z = -\frac{\partial U}{\partial z}$
+
 ## $1 稳恒电流的基本概念
 >通过任意导体界面的电流强度不随时间变化的电流
 ### 一、电流和电流密度
@@ -92,14 +256,127 @@ $\overrightarrow{F_L}=q\overrightarrow{v}\times\overrightarrow{B}$
 $\overrightarrow{F}=$
 
 #### 三、有磁介质时磁场基本性质
-1. 高斯定理
-2. 安培环路定理$\oint_l{\overrightarrow{B}\cdot d\overrightarrow{l}}=\mu\sum_{内}{I}=\mu_{0}\sum_{内}{I_i(传感电流)+I_s(磁化电流)}$
-	真空中磁导率$\mu_0$    磁介质磁导率$\mu_r$ 总磁导率$\mu=\mu_0+\mu_r$
-	令磁场强度$\overrightarrow{H}=\frac{\overrightarrow{B}}{\mu}$
-	所以磁场强度是一个辅助物理量反应磁场分布，与所有传导电流和磁化电流有关
-	$\oint_l{\overrightarrow{H}\cdot d\overrightarrow{l} = \sum_内{I_i}}$
-#### 四、利用介质场的安培环路定理进行磁场计算
+1. **磁场的高斯定理**：$\oint_S{\overrightarrow{B}d\overrightarrow{S}} = 0$，磁场是无源场
+2. **安培环路定理**：$\oint_l{\overrightarrow{B}\cdot d\overrightarrow{l}}=\mu\sum_{内}{I}=\mu_{0}\mu_r\sum_{内}{I_i}$
+	其中 $\mu_0$ 是真空磁导率，$\mu_r$ 是相对磁导率，$\mu=\mu_0\mu_r$ 是总磁导率
+	引入磁场强度矢量：$\overrightarrow{H}=\frac{\overrightarrow{B}}{\mu}$
+	则有：$\oint_l{\overrightarrow{H}\cdot d\overrightarrow{l} = \sum_内{I_i}}$
+	磁场强度是一个辅助物理量，反映磁场分布，与传导电流有关
 
+#### 四、利用磁场强度的安培环路定理进行磁场计算
+在有磁介质时，使用磁场强度 $\overrightarrow{H}$ 的安培环路定理往往更方便。
+
+## 第十三章 磁场对电流的作用
+### §13.1 磁场对运动电荷的作用
+#### 一、洛伦兹力
+运动电荷在磁场中受到的力称为洛伦兹力：
+$\overrightarrow{F_L}=q\overrightarrow{v}\times\overrightarrow{B}$
+
+洛伦兹力的特点：
+1. 力的方向垂直于 $\overrightarrow{v}$ 和 $\overrightarrow{B}$ 所决定的平面
+2. 洛伦兹力不做功，只改变速度方向，不改变速度大小
+3. 在复合场中，带电粒子受到的总力为：$\overrightarrow{F}=q\overrightarrow{E}+q\overrightarrow{v}\times\overrightarrow{B}$（洛伦兹广义力）
+
+#### 二、带电粒子在匀强磁场中的运动
+1. **v//B**：匀速直线运动
+2. **v⊥B**：匀速圆周运动，半径 $R=\frac{mv}{qB}$，周期 $T=\frac{2\pi m}{qB}$
+3. **v与B成任意角θ**：螺旋线运动，螺距 $h=v_{//}T=\frac{2\pi mv\cos\theta}{qB}$
+
+#### 三、霍尔效应
+当电流垂直于外磁场通过导体时，在垂直于磁场和电流的方向上会产生一个横向电势差，这种现象称为霍尔效应。
+
+霍尔电压：$U_H = \frac{IB}{nqd}$，其中n为载流子数密度，d为导体厚度。
+
+### §13.2 磁场对载流导线的作用
+#### 一、安培力
+磁场对电流元的作用力为：$d\overrightarrow{F}=I d\overrightarrow{l}\times\overrightarrow{B}$
+
+对整个载流导线的作用力：$\overrightarrow{F}=\int d\overrightarrow{F}=\int I d\overrightarrow{l}\times\overrightarrow{B}$
+
+#### 二、磁场对载流线圈的作用
+对于在匀强磁场中的平面载流线圈：
+- 磁力矩：$\overrightarrow{M}=\overrightarrow{P_m}\times\overrightarrow{B}$，其中 $\overrightarrow{P_m}=IS\overrightarrow{n}$ 为磁偶极矩
+- 线圈所受合力为零
+- 当 $\overrightarrow{P_m}//\overrightarrow{B}$ 时，力矩为零，为稳定平衡
+- 当 $\overrightarrow{P_m}\perp\overrightarrow{B}$ 时，力矩最大
+
+## 第十四章 磁介质中的磁场
+### §14.1 磁介质的磁化
+#### 一、磁介质的分类
+1. **顺磁质**：$\mu_r > 1$（微大于1），如铝、铂、氧等
+2. **抗磁质**：$\mu_r < 1$（微小于1），如铜、银、金、水等
+3. **铁磁质**：$\mu_r >> 1$，如铁、钴、镍等
+
+#### 二、磁化强度
+磁化强度：$\overrightarrow{M}=\frac{\sum\overrightarrow{P_{mi}}}{\Delta V}$，表示单位体积内的磁矩
+
+磁化电流：$\oint_l \overrightarrow{M}\cdot d\overrightarrow{l} = I'$，其中I'是磁化电流
+
+### §14.2 有磁介质时的安培环路定理
+在有磁介质时：$\oint_l \overrightarrow{H}\cdot d\overrightarrow{l} = I_0$，其中I_0为传导电流
+
+## 第十五章 电磁感应
+### §15.1 电磁感应定律
+#### 一、法拉第电磁感应定律
+电路中感应电动势的大小，跟穿过这一回路的磁通量的变化率成正比：
+$\varepsilon_i = -\frac{d\Phi_m}{dt}$
+
+负号表示感应电动势的方向总是阻碍磁通量的变化（楞次定律）
+
+#### 二、动生电动势和感生电动势
+1. **动生电动势**：导体在恒定磁场中运动产生的电动势
+   $\varepsilon = \int_{L} (\overrightarrow{v}\times\overrightarrow{B})\cdot d\overrightarrow{l}$
+
+2. **感生电动势**：磁场变化引起磁通量变化而产生的电动势
+   $\varepsilon = -\frac{\partial \overrightarrow{B}}{\partial t}$
+
+### §15.2 自感和互感
+#### 一、自感现象
+由于回路中电流变化而在自身回路中产生感应电动势的现象。
+
+自感系数：$L = \frac{\Psi}{I} = \frac{N\Phi}{I}$，单位：亨利(H)
+
+自感电动势：$\varepsilon_L = -L\frac{dI}{dt}$
+
+#### 二、互感现象
+当一个回路中的电流发生变化时，在邻近另一个回路中产生感应电动势的现象。
+
+互感系数：$M = \frac{\Psi_{21}}{I_1} = \frac{N_2\Phi_{21}}{I_1}$，单位：亨利(H)
+
+互感电动势：$\varepsilon_2 = -M\frac{dI_1}{dt}$
+
+### §15.3 磁场的能量
+#### 一、自感磁能
+线圈中建立电流I时，磁场具有的能量为：$W_m = \frac{1}{2}LI^2$
+
+#### 二、磁场能量密度
+磁场能量密度：$w_m = \frac{dW_m}{dV} = \frac{1}{2}\frac{B^2}{\mu_0}$（真空中）
+在磁介质中：$w_m = \frac{1}{2}\frac{B^2}{\mu} = \frac{1}{2}\overrightarrow{B}\cdot\overrightarrow{H}$
+
+## 第十六章 麦克斯韦电磁场理论
+### §16.1 位移电流
+#### 一、位移电流的概念
+麦克斯韦提出：变化的电场也能激发磁场，这种变化电场等效于一种电流，称为位移电流。
+
+位移电流密度：$\overrightarrow{J_d} = \varepsilon_0\frac{\partial\overrightarrow{E}}{\partial t}$
+
+位移电流：$I_d = \int_S \overrightarrow{J_d}\cdot d\overrightarrow{S} = \varepsilon_0\frac{d\Phi_e}{dt}$
+
+全电流：$I_{全} = I_{传导} + I_d$
+
+#### 二、麦克斯韦方程组的积分形式
+1. $\oint_S \overrightarrow{B}\cdot d\overrightarrow{S} = 0$  (磁场高斯定理)
+2. $\oint_L \overrightarrow{E}\cdot d\overrightarrow{l} = -\frac{d\Phi_m}{dt}$  (法拉第电磁感应定律)
+3. $\oint_S \overrightarrow{D}\cdot d\overrightarrow{S} = \sum q$  (电场高斯定理)
+4. $\oint_L \overrightarrow{H}\cdot d\overrightarrow{l} = I + \frac{d\Phi_D}{dt}$  (全电流安培环路定理)
+
+### §16.2 电磁波
+#### 一、电磁波的基本性质
+1. 横波性质：$\overrightarrow{E}$、$\overrightarrow{B}$、$\overrightarrow{v}$ 三者相互垂直
+2. 传播速度：$c = \frac{1}{\sqrt{\mu_0\varepsilon_0}} = 3\times10^8 m/s$
+3. 同步变化：$\frac{E}{B} = c$
+4. 能量传播：电磁波能量密度 $w = \frac{1}{2}\varepsilon_0E^2 + \frac{1}{2\mu_0}B^2$
+5. 能流密度（坡印廷矢量）：$\overrightarrow{S} = \overrightarrow{E}\times\overrightarrow{H}$
 
 ## 第四章 电磁感应与电磁场
 世界是对称和谐的：奥斯特 电流→磁场  磁场→？电流     法拉第经过了10年的努力：电磁感应定律
@@ -211,16 +488,61 @@ $\large\sqrt{\overline{v^2}}=v_{rms}$ 方均根速率，是速率的量纲  其�
 ...
 结论：理想气体的内能只与温度有关，是温度的单值函数
 
-### §5
+### §5 麦克斯韦速率分布律
 单个气体分子的运动是随机的、偶然的，大量气体分子整体而言，速率分布有必然确定的统计规律性。
-方法：
-测量装置：
-要保证粒子能够通过，$t=\frac{l}{v}, \omega t \leq\phi$ 由此可以筛选不同速度的粒子
-#### 一、
-？
 
+麦克斯韦在1859年从理论上确定了平衡态下理想气体分子的速率分布定律：
 
 $f(v) = 4\pi \left( \frac{m}{2\pi k T} \right)^{\frac{3}{2}} v^2 \exp\left(-\frac{m v^2}{2 k T}\right)$
+
+其中：
+- $f(v)$ 是速率分布函数，表示在速率$v$附近单位速率区间内的分子数占总分子数的比率
+- $m$ 是单个气体分子的质量
+- $k$ 是玻尔兹曼常数
+- $T$ 是气体的热力学温度
+- $v$ 是分子的速率
+
+$f(v)dv$ 表示速率在 $v$ 到 $v+dv$ 之间的分子数占总分子数的比率。
+
+##### 三种特征速率
+1. **最概然速率**（最可几速率）$v_p$：与 $f(v)$ 的极大值对应的速率
+   $v_p = \sqrt{\frac{2kT}{m}} = \sqrt{\frac{2RT}{M}}$
+   表示在一定温度下，气体分子速率分布中占优势的速率。
+
+2. **平均速率** $\bar{v}$：
+   $\bar{v} = \sqrt{\frac{8kT}{\pi m}} = \sqrt{\frac{8RT}{\pi M}}$
+   表示气体分子速率的算术平均值。
+
+3. **方均根速率** $v_{rms}$：
+   $v_{rms} = \sqrt{\overline{v^2}} = \sqrt{\frac{3kT}{m}} = \sqrt{\frac{3RT}{M}}$
+   表示气体分子速率平方的平均值的平方根。
+
+其中 $R$ 是理想气体常数，$M$ 是摩尔质量。
+
+关系：$v_p : \bar{v} : v_{rms} = 1 : 1.13 : 1.22$
+
+#### 二、玻尔兹曼分布
+在有外场（如重力场）作用时，气体分子的空间分布不再是均匀的，还要考虑外场对分子的影响。
+
+**玻尔兹曼分布**：在温度为T的平衡态下，处在某一状态i（其能量为$\varepsilon_i$）的分子数密度与$\exp(-\varepsilon_i/kT)$成正比。
+
+$n_i = A\exp(-\varepsilon_i/kT)$
+
+其中A是归一化常数。
+
+#### 三、重力场中粒子的分布——玻尔兹曼分布的应用
+在重力场中，分子在高度z处的数密度为：
+
+$n(z) = n_0\exp(-mgz/kT) = n_0\exp(-\frac{Mgz}{RT})$
+
+其中：
+- $n_0$ 是z=0处的分子数密度
+- $m$ 是单个分子质量
+- $M$ 是摩尔质量
+- $g$ 是重力加速度
+- $z$ 是高度
+
+这表明：高度增加时，分子数密度按指数规律减少；质量大的分子数密度减少得更快；温度高时，这种减少更缓慢。
 
 ## 第二章 热力学基础
 1. 功、热量、内能
@@ -451,53 +773,205 @@ Root-->B
 ### §5 实物粒子的波粒二象性
 #### 一、德布罗意波
 光的粒子性与波动性的关系式：
-$\sigma=hv$ $p=\frac{h}{\lambda}$
+$\epsilon=hv$ $p=\frac{h}{\lambda}$
 德布罗意假设：一切实物粒子都具有波粒二象性
-粒子性：$E=mc^2=hv$ 波动性：$p=mv=\frac{h}{\lambda}$
+粒子性：$E=hv$ 波动性：$p=\frac{h}{\lambda}$
+
+德布罗意关系式：
+- 能量与频率关系：$E=hv=\hbar\omega$，其中$\hbar=\frac{h}{2\pi}$
+- 动量与波长关系：$p=\frac{h}{\lambda}=\hbar k$，其中$k=\frac{2\pi}{\lambda}$为波数
+
+对于自由粒子，德布罗意波长为：
+- 非相对论情形：$\lambda = \frac{h}{p} = \frac{h}{mv}$
+- 当粒子经电势差U加速后：$\lambda = \frac{h}{\sqrt{2mqU}}$，对于电子：$\lambda = \frac{1.225}{\sqrt{U}} \text{nm}$
 
 #### 二、物质波的验证——电子衍射实验
+1927年戴维孙-革末实验和G.P.汤姆逊实验验证了电子的波动性。
+
+戴维孙-革末实验：
+- 用电子束垂直入射到镍单晶表面
+- 发现散射电子在某些方向上强度特别大
+- 符合布喇格公式：$2d\sin\theta = n\lambda$ (n=1,2,3...)
+- 证实了电子具有波动性
+
+#### 三、德布罗意波的统计解释
+德布罗意波不是经典波动，而是概率波：
+- 波强度 $|\Psi|^2$ 表示在空间某点找到粒子的概率密度
+- 粒子在某点出现的概率与该点波函数模的平方成正比
+- 德布罗意波是概率波，体现微观粒子的波粒二象性
 
 ### §6 不确定关系
 经典力学：运动物体具有确定的位置和动量
 微观粒子：由于波动性，粒子以一定的概率在空间出现，粒子在任一时刻不具有确定的位置和动量
-**海森堡不确定关系**：$\Delta x \cdot \Delta p_x \geq \frac{h}{2}$
+
+**海森堡不确定关系**：
+- 位置-动量不确定关系：$\Delta x \cdot \Delta p_x \geq \frac{\hbar}{2}$，其中$\hbar=\frac{h}{2\pi}$
+- 时间-能量不确定关系：$\Delta E \cdot \Delta t \geq \frac{\hbar}{2}$
+- 角动量-角位置不确定关系：$\Delta L \cdot \Delta \theta \geq \frac{\hbar}{2}$
+
 - 不确定关系说明：微观粒子不可能同时具有确定的位置和动量，若粒子位置越准确，动量必然越不确定，反之亦然
 - 不确定关系仅是波粒二象性及其统计关系的必然结果，而不是测量仪器对粒子的干扰
-**能量-时间不确定关系**：$\Delta E \cdot \Delta t \geq \frac{h}{2}$
+
+**能量-时间不确定关系**：$\Delta E \cdot \Delta t \geq \frac{\hbar}{2}$
 	反映了原子能级宽度 $\Delta E$ 和原子在该能级上平均寿命 $\Delta t$ 之间的关系
-	激发态：寿命短 $\Delta t ~ 10^{-8}s$，能级宽度大 $\Delta E \geq \frac{h}{2\Delta t} ~ 10^{-8}eV$
+	激发态：寿命短 $\Delta t \sim 10^{-8}s$，能级宽度大 $\Delta E \geq \frac{\hbar}{2\Delta t} \sim 10^{-8}eV$
 	基态：寿命长 $\Delta t\to\infty$，能级宽度小 $\Delta E\to 0$
+
+**不确定关系的物理意义**：
+1. 是微观粒子本身固有的属性，不是测量技术的限制
+2. 是波粒二象性的必然结果
+3. 反映了微观世界的基本规律，是量子力学的基石之一
+4. 宏观物体的不确定关系效应可以忽略不计
 ### §7 波函数 薛定谔方程
 #### 一、波函数
 微观粒子具有波动性，可用波函数 $\Psi (x,y,z,t)$ 描述微观粒子的波动性质
-- 沿x轴传播的简谐波：$\Psi (x,t)=A{\large e^{-i2\pi(\mathcal{v}t-x/\lambda)}}=A{\large e^{i(kx-\omega t)}}$ $E=hv,\;p=h/\lambda$
-	$k=\frac{2\pi}{\lambda}$ 波数  $\omega=2\pi v$ 角频率)} 
-- 对能量为E，动量为p的自由粒子，其平面物质波波函数为：
-	$\Psi (x,t)=\Psi_{0}\large e^{\frac{i}{\hbar}(px-Et)}=\Psi(x) \large e^{- \frac{i}{\hbar}Et}$ 
-	其中，$\hbar=\frac{h}{2\pi}$, $\Psi(x)=\Psi_0e^{\frac{i}{\hbar}px}$ 称为振幅函数
-	上式即为一维自由粒子的波函数
-- 三维：$\Psi(\overrightarrow{r},t)=\Psi_{0}\large e^{\frac{i}{\hbar}(\overrightarrow{p}\cdot\overrightarrow{r}-Et)}$
 
-> [!help]
-> 
+**德布罗意波的数学表达式**：
+- 沿x轴传播的简谐波：$\Psi (x,t)=A{\large e^{-i2\pi(\nu t-x/\lambda)}}=A{\large e^{i(kx-\omega t)}}$，其中$E=h\nu=\hbar\omega$，$p=\frac{h}{\lambda}=\hbar k$
+- $k=\frac{2\pi}{\lambda}$ 波数，$\omega=2\pi \nu$ 角频率
+- $\hbar=\frac{h}{2\pi}$，称为约化普朗克常量
 
+**自由粒子的波函数**：
+对能量为E，动量为p的自由粒子，其平面物质波波函数为：
+$\Psi (x,t)=\Psi_{0}\large e^{\frac{i}{\hbar}(px-Et)}=\Psi(x) \large e^{- \frac{i}{\hbar}Et}$ 
+其中，$\hbar=\frac{h}{2\pi}$, $\Psi(x)=\Psi_0e^{\frac{i}{\hbar}px}$ 称为振幅函数
+上式即为一维自由粒子的波函数
 
+**三维情况**：$\Psi(\overrightarrow{r},t)=\Psi_{0}\large e^{\frac{i}{\hbar}(\overrightarrow{p}\cdot\overrightarrow{r}-Et)}$
+
+**波函数的统计解释**：
 振幅函数 $\Psi(x)$ 的共轭函数为 $\Psi^{*}(x)$，则 $\Psi^{*}(x)\Psi(x)=|\Psi(x)|^2$ 称为概率密度函数
 $\Psi$ 的共轭函数 $\Psi^{*}(x,t)=\Psi^{*}(x) \large e^{\frac{i}{\hbar}Et}$，则 $\Psi^{*}\Psi=|\Psi|^2$ 为波的强度
 
-对于在各种外力场中运动的粒子，即能量为E、动量为p的运动粒子，其平面物质波波函数为就是后面讲到的薛定谔方程的解。
-#### 二、波函数的统计解释
+**波函数的物理意义**：
+- $|\Psi(x,y,z,t)|^2 dV$ 表示在时刻t、在(x,y,z)点附近的体积元dV内找到粒子的概率
+- $|\Psi(x,y,z,t)|^2$ 表示时刻t在点(x,y,z)处的概率密度
+- 波函数的统计解释由玻恩提出，因此也称玻恩解释
 
+**波函数的标准化条件**：
+1. **归一化条件**：$\int\int\int_{V} |\Psi|^2 dV = 1$，即粒子在全空间出现的概率为1
+2. **有限性条件**：波函数在全空间必须是有限的
+3. **连续性条件**：波函数必须是连续的
+4. **单值性条件**：波函数必须是单值的
 
-#### 三、薛定谔方程
-**薛定谔方程是描述波函数如何随时间演化的基本动力学方程，而波函数是薛定谔方程的解，它包含了量子系统的全部信息。**
+#### 二、薛定谔方程
+薛定谔方程是描述波函数如何随时间演化的基本动力学方程，而波函数是薛定谔方程的解，它包含了量子系统的全部信息。
 
 薛定谔建立了适用于低速情况的、描述微观粒子在外力场中运动的微分方程，也就是物质波波函数所满足的方程
-##### 1. 一般薛定谔方程
-- 一维运动自由粒子 ：
-	$\large i\hbar\frac{\partial \Psi (x,t)}{\partial t}=-\frac{\hbar^2}{2m}\frac{\partial^2 \Psi (x,t)}{\partial x^2}$
+
+**一维定态薛定谔方程**：
+$-\frac{\hbar^2}{2m}\frac{d^2\Psi}{dx^2} + U(x)\Psi = E\Psi$
+
+其中：
+- $m$ 为粒子质量
+- $U(x)$ 为势能函数
+- $E$ 为粒子的总能量
+- $\hbar$ 为约化普朗克常量
+
+**三维定态薛定谔方程**：
+$-\frac{\hbar^2}{2m}\nabla^2\Psi + U(x,y,z)\Psi = E\Psi$
+
+其中 $\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2}$ 为拉普拉斯算符
+
+**含时间的薛定谔方程**：
+$i\hbar\frac{\partial \Psi}{\partial t} = -\frac{\hbar^2}{2m}\nabla^2\Psi + U\Psi$
+
+或写成：$i\hbar\frac{\partial \Psi}{\partial t} = \hat{H}\Psi$
+
+其中 $\hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + U$ 称为哈密顿算符，代表粒子的总能量
 	
 
 ### §8 薛定谔方程的应用
 #### 一、一维无限深势阱
+势阱的势能函数为：
+$U(x) = \begin{cases} 
+0 & 0 < x < a \\
+\infty & x \leq 0 \text{ 或 } x \geq a 
+\end{cases}$
+
+在势阱内部(0 < x < a)，势能U(x) = 0，薛定谔方程为：
+$-\frac{\hbar^2}{2m}\frac{d^2\Psi}{dx^2} = E\Psi$
+
+即：$\frac{d^2\Psi}{dx^2} + k^2\Psi = 0$，其中 $k^2 = \frac{2mE}{\hbar^2}$
+
+方程的通解为：$\Psi(x) = A\sin(kx) + B\cos(kx)$
+
+边界条件：
+1. 在 $x=0$ 和 $x=a$ 处，$\Psi(0) = \Psi(a) = 0$
+2. 由于在 $x \leq 0$ 和 $x \geq a$ 处 $U(x) = \infty$，所以波函数在这些区域为零
+
+应用边界条件：
+- 在 $x=0$ 处，$\Psi(0) = B = 0$，所以 $B=0$
+- 在 $x=a$ 处，$\Psi(a) = A\sin(ka) = 0$
+
+由于 $A \neq 0$（否则波函数处处为零），所以必须有：$\sin(ka) = 0$
+
+即：$ka = n\pi$，其中 $n = 1, 2, 3, ...$
+
+因此：$k = \frac{n\pi}{a}$
+
+**能级量子化**：
+$E_n = \frac{\hbar^2 k^2}{2m} = \frac{\hbar^2 \pi^2}{2ma^2}n^2$
+
+即：$E_n = \frac{n^2 h^2}{8ma^2}$，$n = 1, 2, 3, ...$
+
+**波函数**：
+$\Psi_n(x) = A_n\sin\left(\frac{n\pi x}{a}\right)$
+
+由归一化条件 $\int_0^a |\Psi_n(x)|^2 dx = 1$ 得到：$A_n = \sqrt{\frac{2}{a}}$
+
+所以：$\Psi_n(x) = \sqrt{\frac{2}{a}}\sin\left(\frac{n\pi x}{a}\right)$
+
+**结论**：
+1. 能量量子化：$E_n \propto n^2$，$n = 1, 2, 3, ...$（量子数）
+2. 零点能：$E_1 = \frac{h^2}{8ma^2} \neq 0$，这是不确定关系的必然结果
+3. 波函数具有节点：第n个态在势阱内有(n-1)个节点
+
 #### 二、氢原子的量子力学解
+氢原子中电子在外场中的势能为：$U(r) = -\frac{e^2}{4\pi\varepsilon_0 r}$
+
+薛定谔方程为：
+$-\frac{\hbar^2}{2m}\nabla^2\Psi + U(r)\Psi = E\Psi$
+
+采用球坐标系 $(r, \theta, \phi)$，由于势能只是径向距离r的函数，具有球对称性，所以可将波函数表示为：
+$\Psi(r,\theta,\phi) = R(r)\Theta(\theta)\Phi(\phi)$
+
+解得氢原子的量子数：
+1. **主量子数** $n$：$n = 1, 2, 3, ...$
+   决定能级：$E_n = -\frac{13.6}{n^2} \text{eV}$
+
+2. **角量子数** $l$：$l = 0, 1, 2, ..., n-1$
+   对应轨道角动量的大小：$L = \sqrt{l(l+1)}\hbar$
+
+3. **磁量子数** $m_l$：$m_l = 0, \pm 1, \pm 2, ..., \pm l$
+   对应轨道角动量在空间某一方向（如z方向）的投影：$L_z = m_l\hbar$
+
+**氢原子的能级**：
+$E_n = -\frac{me^4}{2(4\pi\varepsilon_0)^2\hbar^2}\frac{1}{n^2} = -\frac{13.6}{n^2} \text{eV}$
+
+**量子数的物理意义**：
+- $n$ 决定能量的主要部分，$n$ 越大，能量越高
+- $l$ 决定原子轨道角动量的大小
+- $m_l$ 决定轨道角动量的空间取向
+
+**电子云概念**：
+$|\Psi|^2$ 表示电子在原子核外空间某点的相对概率密度，形象地称为"电子云"。
+
+#### 三、原子的电子壳层结构
+根据泡利不相容原理：不能有两个或两个以上的电子处在完全相同的状态。
+每个量子态只能容纳一个电子。
+
+在原子中，一个主量子数n对应一个壳层：
+- K层：n=1 (最多容纳2个电子)
+- L层：n=2 (最多容纳8个电子) 
+- M层：n=3 (最多容纳18个电子)
+- N层：n=4 (最多容纳32个电子)
+
+对确定的主量子数n，角量子数l可取值0,1,2,...,n-1，对应s,p,d,f...支壳层。
+
+#### 四、电子自旋
+1925年乌伦贝克和古兹密特提出电子具有自旋的假设，引入第四个量子数——自旋磁量子数。
+- 自旋角动量：$S = \sqrt{s(s+1)}\hbar$，其中自旋量子数 $s = \frac{1}{2}$
+- 自旋角动量z分量：$S_z = m_s\hbar$，其中自旋磁量子数 $m_s = \pm\frac{1}{2}$
+
+每个电子态由四个量子数 (n, l, m_l, m_s) 完全确定。
