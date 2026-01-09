@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f5c9a3dac1766440",
+        "id": "7d844b35b74791a8",
         "type": "tabs",
         "children": [
           {
-            "id": "2cf86a34b1ab9774",
+            "id": "8d12be182b27defc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "大学物理HC(2).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "大学物理HC(2)"
             }
           }
         ]
@@ -127,7 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "复变函数与积分变换.md",
+            "file": "大学物理HC(2).md",
             "followCursor": true,
             "showSearch": false,
             "searchQuery": ""
@@ -162,12 +166,17 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "2cf86a34b1ab9774",
+  "active": "8d12be182b27defc",
   "lastOpenFiles": [
+    "大学物理复习.md",
+    "大学物理HC(2).md",
+    "复变函数/复变函数C2S3例7.jpg",
     "概率论复习知识点.md",
+    "Pasted image 20251209091345.png",
+    "习近平新时代.md",
     "复变函数知识点.md",
-    "复变函数与积分变换.md",
     "概率论与数理统计.md",
+    "复变函数与积分变换.md",
     "IMG_7893.jpg",
     "IMG_7892.jpg",
     "复变函数第四章第一节第二节.canvas",
@@ -180,14 +189,11 @@
     "理论力学.md",
     "理论力学生词.md",
     "ReadMe.md",
-    "大学物理HC(2).md",
     "理论力学_11.3-解题步骤.jpg",
     "技术文档.md",
     "未命名.base",
     "Column如何使用.md",
     "1763693545637.jpg",
-    "1763693540184.jpg",
-    "1763693363826.jpg",
     "阅读模式专属横向页面布局.md",
     "复变函数",
     "大学物理HC(2)",
