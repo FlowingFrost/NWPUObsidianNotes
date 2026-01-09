@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0333e8778effe860",
+        "id": "7d844b35b74791a8",
         "type": "tabs",
         "children": [
           {
-            "id": "03d7e96d7bc2b720",
+            "id": "8d12be182b27defc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "复变函数/复变函数C2S3例7.jpg"
+                "file": "大学物理HC(2).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "复变函数C2S3例7"
+              "icon": "lucide-file",
+              "title": "大学物理HC(2)"
             }
           }
         ]
@@ -129,7 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "习近平新时代.md",
+            "file": "大学物理HC(2).md",
             "followCursor": true,
             "showSearch": false,
             "searchQuery": ""
@@ -164,8 +166,11 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "03d7e96d7bc2b720",
+  "active": "8d12be182b27defc",
   "lastOpenFiles": [
+    "大学物理复习.md",
+    "大学物理HC(2).md",
+    "复变函数/复变函数C2S3例7.jpg",
     "概率论复习知识点.md",
     "Pasted image 20251209091345.png",
     "习近平新时代.md",
@@ -184,13 +189,11 @@
     "理论力学.md",
     "理论力学生词.md",
     "ReadMe.md",
-    "大学物理HC(2).md",
     "理论力学_11.3-解题步骤.jpg",
     "技术文档.md",
     "未命名.base",
     "Column如何使用.md",
     "1763693545637.jpg",
-    "1763693540184.jpg",
     "阅读模式专属横向页面布局.md",
     "复变函数",
     "大学物理HC(2)",

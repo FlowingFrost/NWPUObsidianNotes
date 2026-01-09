@@ -4,8 +4,30 @@
     "type": "split",
     "children": [
       {
+        "id": "ef4be56c2d087021",
+        "type": "tabs",
+        "dimension": 20.414673046251995,
+        "children": [
+          {
+            "id": "81dc720ded062181",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "理论力学.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "理论力学"
+            }
+          }
+        ]
+      },
+      {
         "id": "408d88f3a39e24c4",
         "type": "tabs",
+        "dimension": 79.58532695374801,
         "children": [
           {
             "id": "769fc973a1c6081e",
@@ -13,12 +35,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "概率论复习知识点.md",
+                "file": "理论力学/理论力学考试安排.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "概率论复习知识点"
+              "title": "理论力学考试安排"
+            }
+          },
+          {
+            "id": "e945604f4b471a19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "理论力学/理论力学复习.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "理论力学复习"
             }
           }
         ]
@@ -78,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.50152587890625
+    "width": 224.50152587890625,
+    "collapsed": true
   },
   "right": {
     "id": "fb45e7644d1ba48e",
@@ -181,18 +218,28 @@
   },
   "active": "769fc973a1c6081e",
   "lastOpenFiles": [
-    "概率论复习知识点补充.md",
+    "理论力学/理论力学复习.md",
+    "理论力学/理论力学考试安排.md",
+    "理论力学.md",
+    "Pasted image 20251230204605.png",
+    "理论力学/Pasted image 20251230155555.png",
+    "理论力学/Pasted image 20251230204358.png",
+    "理论力学/Pasted image 20251230203556.png",
+    "理论力学/Pasted image 20251230203551.png",
+    "理论力学/Pasted image 20251230163045.png",
+    "理论力学/Pasted image 20251230162031.png",
+    "理论力学/Pasted image 20251230161714.png",
+    "理论力学/Pasted image 20251230155600.png",
+    "理论力学/Pasted image 20251230155518.png",
+    "Column如何使用.md",
     "概率论复习知识点.md",
+    "概率论复习知识点补充.md",
     "复变函数与积分变换.md",
     "工程数学.md",
     "概率论与数理统计.md",
     "大学物理HC(2).md",
     "Obsidian小知识.md",
-    "理论力学.md",
-    "理论力学/理论力学考试安排.md",
     "理论力学",
-    "Column如何使用.md",
-    "Pasted image 20251209091345.png",
     "第一节.canvas",
     "复变函数习题.md",
     "TempWorkspace/千问-复变函数.md",
@@ -200,17 +247,8 @@
     "横向页面示例.md",
     "技术文档.md",
     "阅读模式专属横向页面布局.md",
-    "复变函数/1763693540184.jpg",
-    "复变函数/1763693363826.jpg",
-    "复变函数/1763693362014.jpg",
-    "复变函数/1763610604234.jpg",
-    "复变函数/1763693545637.jpg",
     "TempWorkspace/DeepSeek.md",
     "TempWorkspace",
-    "未命名.base",
-    "复变函数/复变函数_C1S6_2.3.png",
-    "复变函数/复变函数_C2S1_2.1.png",
-    "复变函数/复变函数_C1S3_2.png",
-    "复变函数/复变函数C1_S4_2.png"
+    "未命名.base"
   ]
 }
