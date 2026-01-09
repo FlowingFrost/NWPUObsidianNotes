@@ -163,6 +163,93 @@ $U_{ab} = U_a - U_b = \int_a^b \vec{E} \cdot d\vec{l}$
 - $E_y = -\frac{\partial U}{\partial y}$  
 - $E_z = -\frac{\partial U}{\partial z}$
 
+## 第十三章 静电场中的导体和电介质
+
+### §13.1 静电场中的导体
+#### 一、静电感应现象
+当导体置于外电场中时，导体中的自由电荷在外电场的作用下重新分布，这种现象称为静电感应。导体中感应电荷产生的附加电场与外电场叠加，使导体中的总电场重新分布。
+
+静电感应过程：
+- 无外电场时，导体内部和表面都没有净电荷
+- 加外电场后，自由电子在电场力作用下运动，导致电荷重新分布
+- 最终达到静电平衡状态
+
+#### 二、静电平衡状态
+静电平衡状态是指导体内部和表面上都没有电荷的定向移动的状态。
+
+导体的静电平衡条件：
+1. 用场强描述：导体内部任意点的电场强度为零，即 $\vec{E}_{内} = 0$
+2. 用电势描述：整个导体是等势体，导体表面是等势面
+
+#### 三、静电平衡时导体上电荷的分布
+1. **实心导体**：导体处于静电平衡时，导体内部没有净电荷，电荷只能分布在导体表面上
+2. **空腔导体**（空腔内无带电体时）：导体内部和空腔内表面上都没有净电荷存在，电荷只分布在导体外表面上
+3. **空腔导体**（空腔内有带电体时）：空腔内表面感应出与腔内带电体等值异号的电量，导体外表面上的电量为导体原带电量与感应电量的代数和
+4. **电荷面密度与曲率的关系**：导体表面曲率半径R越小的地方，电荷面密度σ越大，即 $\sigma \propto \frac{1}{R}$
+5. **导体表面附近电场强度**：导体表面附近电场强度的大小与该处表面的电荷面密度成正比，即 $E = \frac{\sigma}{\varepsilon_0}$
+
+#### 四、静电屏蔽
+静电屏蔽是指利用导体空腔隔绝内外电场相互影响的现象。
+- 导体空腔外的电荷对腔内电场无影响
+- 接地的导体空腔可以屏蔽腔内电荷对外界的影响
+
+### §13.2 静电场中的电介质
+#### 一、电介质的分类
+1. **无极分子电介质**：无外电场时分子的正负电荷中心重合，分子电偶极矩 $\vec{p}_e = 0$
+2. **有极分子电介质**：无外电场时分子正负电荷中心不重合，分子具有固有电偶极矩 $\vec{p}_e \neq 0$
+
+#### 二、电介质的极化
+1. **无极分子的极化**（位移极化）：在外电场作用下，分子中正负电荷中心发生相对位移
+2. **有极分子的极化**（转向极化）：在外电场作用下，分子电偶极子发生转向排列
+
+极化电荷（束缚电荷）：电介质表面或内部出现的不能自由移动的电荷。
+
+#### 三、介质中的静电场
+在外电场作用下，电介质产生极化电荷，极化电荷产生附加电场，使得介质中的总电场发生变化。
+- 介质中的合场强：$E = E_0 - E'$，其中 $E_0$ 为自由电荷产生的场，$E'$ 为极化电荷产生的场
+- 对于各向同性均匀电介质：$E = \frac{E_0}{\varepsilon_r}$，其中 $\varepsilon_r$ 为相对介电常量
+
+#### 四、电位移矢量
+定义电位移矢量：$\vec{D} = \varepsilon_0\vec{E} + \vec{P}$，对于各向同性均匀电介质：$\vec{D} = \varepsilon\vec{E} = \varepsilon_0\varepsilon_r\vec{E}$
+
+电介质中的高斯定理：$\oint_S \vec{D} \cdot d\vec{S} = \sum q_0$，其中 $\sum q_0$ 是闭合曲面内包围的自由电荷
+
+电位移通量只与闭合曲面所包围的自由电荷有关，但 $\vec{D}$（或 $\vec{E}$）本身与自由电荷和极化电荷都有关。
+
+### §13.3 电容和电容器
+#### 一、孤立导体的电容
+孤立导体的电容定义为：$C = \frac{Q}{U}$
+
+孤立带电导体球的电容：$C = 4\pi\varepsilon_0 R$，其中R为球的半径
+
+#### 二、电容器的电容
+电容器：由两个带有等量异号电荷的导体组成的系统
+
+电容器的电容定义为：$C = \frac{Q}{U_A - U_B}$，其中Q为一个极板上的电荷量，$U_A - U_B$ 为两极板间的电势差
+
+电容器的电容与极板的尺寸、形状、相对位置及极板间的电介质有关。
+
+#### 三、常见电容器的电容
+1. **平行板电容器**：$C = \varepsilon_r\varepsilon_0\frac{S}{d}$，其中S为极板面积，d为极板间距
+2. **圆柱形电容器**：$C = \frac{2\pi\varepsilon L}{\ln\frac{R_2}{R_1}}$，其中L为长度，$R_1$、$R_2$ 为内外圆柱的半径
+3. **球形电容器**：$C = 4\pi\varepsilon\frac{R_1R_2}{R_2-R_1}$，其中$R_1$、$R_2$ 为内外球面的半径
+
+#### 四、电容器的联接
+1. **并联**：$C = C_1 + C_2 + \cdots + C_n$
+2. **串联**：$\frac{1}{C} = \frac{1}{C_1} + \frac{1}{C_2} + \cdots + \frac{1}{C_n}$
+
+### §13.4 静电场的能量
+#### 一、带电体的静电能
+将电荷元dq从无穷远处移到带电体上，外力需做功：$dA = U dq$
+
+整个带电体的静电能：$W_e = \int_0^Q U dq = \frac{Q^2}{2C} = \frac{1}{2}CU^2$
+
+#### 二、电场能量
+电场能量密度：$w_e = \frac{1}{2}\varepsilon E^2 = \frac{1}{2}\vec{D} \cdot \vec{E}$
+
+总电场能量：$W_e = \int_V w_e dV = \int_V \frac{1}{2}\varepsilon E^2 dV$
+
+## 第十四章 稳恒磁场
 ### $1 稳恒电流的基本概念
 >通过任意导体界面的电流强度不随时间变化的电流
 #### 一、电流和电流密度
@@ -265,42 +352,8 @@ $\overrightarrow{F}=$
 #### 四、利用磁场强度的安培环路定理进行磁场计算
 在有磁介质时，使用磁场强度 $\overrightarrow{H}$ 的安培环路定理往往更方便。
 
-## 第十三章 磁场对电流的作用
-### §13.1 磁场对运动电荷的作用
-#### 一、洛伦兹力
-运动电荷在磁场中受到的力称为洛伦兹力：
-$\overrightarrow{F_L}=q\overrightarrow{v}\times\overrightarrow{B}$
-
-洛伦兹力的特点：
-1. 力的方向垂直于 $\overrightarrow{v}$ 和 $\overrightarrow{B}$ 所决定的平面
-2. 洛伦兹力不做功，只改变速度方向，不改变速度大小
-3. 在复合场中，带电粒子受到的总力为：$\overrightarrow{F}=q\overrightarrow{E}+q\overrightarrow{v}\times\overrightarrow{B}$（洛伦兹广义力）
-
-#### 二、带电粒子在匀强磁场中的运动
-1. **v//B**：匀速直线运动
-2. **v⊥B**：匀速圆周运动，半径 $R=\frac{mv}{qB}$，周期 $T=\frac{2\pi m}{qB}$
-3. **v与B成任意角θ**：螺旋线运动，螺距 $h=v_{//}T=\frac{2\pi mv\cos\theta}{qB}$
-
-#### 三、霍尔效应
-当电流垂直于外磁场通过导体时，在垂直于磁场和电流的方向上会产生一个横向电势差，这种现象称为霍尔效应。
-
-霍尔电压：$U_H = \frac{IB}{nqd}$，其中n为载流子数密度，d为导体厚度。
-
-### §13.2 磁场对载流导线的作用
-#### 一、安培力
-磁场对电流元的作用力为：$d\overrightarrow{F}=I d\overrightarrow{l}\times\overrightarrow{B}$
-
-对整个载流导线的作用力：$\overrightarrow{F}=\int d\overrightarrow{F}=\int I d\overrightarrow{l}\times\overrightarrow{B}$
-
-#### 二、磁场对载流线圈的作用
-对于在匀强磁场中的平面载流线圈：
-- 磁力矩：$\overrightarrow{M}=\overrightarrow{P_m}\times\overrightarrow{B}$，其中 $\overrightarrow{P_m}=IS\overrightarrow{n}$ 为磁偶极矩
-- 线圈所受合力为零
-- 当 $\overrightarrow{P_m}//\overrightarrow{B}$ 时，力矩为零，为稳定平衡
-- 当 $\overrightarrow{P_m}\perp\overrightarrow{B}$ 时，力矩最大
-
-## 第十四章 磁介质中的磁场
-### §14.1 磁介质的磁化
+## ？？？ 磁介质中的磁场
+### § ？ 磁介质的磁化
 #### 一、磁介质的分类
 1. **顺磁质**：$\mu_r > 1$（微大于1），如铝、铂、氧等
 2. **抗磁质**：$\mu_r < 1$（微小于1），如铜、银、金、水等
@@ -311,73 +364,10 @@ $\overrightarrow{F_L}=q\overrightarrow{v}\times\overrightarrow{B}$
 
 磁化电流：$\oint_l \overrightarrow{M}\cdot d\overrightarrow{l} = I'$，其中I'是磁化电流
 
-### §14.2 有磁介质时的安培环路定理
+### § ？ 有磁介质时的安培环路定理
 在有磁介质时：$\oint_l \overrightarrow{H}\cdot d\overrightarrow{l} = I_0$，其中I_0为传导电流
 
-## 第十五章 电磁感应
-### §15.1 电磁感应定律
-#### 一、法拉第电磁感应定律
-电路中感应电动势的大小，跟穿过这一回路的磁通量的变化率成正比：
-$\varepsilon_i = -\frac{d\Phi_m}{dt}$
-
-负号表示感应电动势的方向总是阻碍磁通量的变化（楞次定律）
-
-#### 二、动生电动势和感生电动势
-1. **动生电动势**：导体在恒定磁场中运动产生的电动势
-   $\varepsilon = \int_{L} (\overrightarrow{v}\times\overrightarrow{B})\cdot d\overrightarrow{l}$
-
-2. **感生电动势**：磁场变化引起磁通量变化而产生的电动势
-   $\varepsilon = -\frac{\partial \overrightarrow{B}}{\partial t}$
-
-### §15.2 自感和互感
-#### 一、自感现象
-由于回路中电流变化而在自身回路中产生感应电动势的现象。
-
-自感系数：$L = \frac{\Psi}{I} = \frac{N\Phi}{I}$，单位：亨利(H)
-
-自感电动势：$\varepsilon_L = -L\frac{dI}{dt}$
-
-#### 二、互感现象
-当一个回路中的电流发生变化时，在邻近另一个回路中产生感应电动势的现象。
-
-互感系数：$M = \frac{\Psi_{21}}{I_1} = \frac{N_2\Phi_{21}}{I_1}$，单位：亨利(H)
-
-互感电动势：$\varepsilon_2 = -M\frac{dI_1}{dt}$
-
-### §15.3 磁场的能量
-#### 一、自感磁能
-线圈中建立电流I时，磁场具有的能量为：$W_m = \frac{1}{2}LI^2$
-
-#### 二、磁场能量密度
-磁场能量密度：$w_m = \frac{dW_m}{dV} = \frac{1}{2}\frac{B^2}{\mu_0}$（真空中）
-在磁介质中：$w_m = \frac{1}{2}\frac{B^2}{\mu} = \frac{1}{2}\overrightarrow{B}\cdot\overrightarrow{H}$
-
-## 第十六章 麦克斯韦电磁场理论
-### §16.1 位移电流
-#### 一、位移电流的概念
-麦克斯韦提出：变化的电场也能激发磁场，这种变化电场等效于一种电流，称为位移电流。
-
-位移电流密度：$\overrightarrow{J_d} = \varepsilon_0\frac{\partial\overrightarrow{E}}{\partial t}$
-
-位移电流：$I_d = \int_S \overrightarrow{J_d}\cdot d\overrightarrow{S} = \varepsilon_0\frac{d\Phi_e}{dt}$
-
-全电流：$I_{全} = I_{传导} + I_d$
-
-#### 二、麦克斯韦方程组的积分形式
-1. $\oint_S \overrightarrow{B}\cdot d\overrightarrow{S} = 0$  (磁场高斯定理)
-2. $\oint_L \overrightarrow{E}\cdot d\overrightarrow{l} = -\frac{d\Phi_m}{dt}$  (法拉第电磁感应定律)
-3. $\oint_S \overrightarrow{D}\cdot d\overrightarrow{S} = \sum q$  (电场高斯定理)
-4. $\oint_L \overrightarrow{H}\cdot d\overrightarrow{l} = I + \frac{d\Phi_D}{dt}$  (全电流安培环路定理)
-
-### §16.2 电磁波
-#### 一、电磁波的基本性质
-1. 横波性质：$\overrightarrow{E}$、$\overrightarrow{B}$、$\overrightarrow{v}$ 三者相互垂直
-2. 传播速度：$c = \frac{1}{\sqrt{\mu_0\varepsilon_0}} = 3\times10^8 m/s$
-3. 同步变化：$\frac{E}{B} = c$
-4. 能量传播：电磁波能量密度 $w = \frac{1}{2}\varepsilon_0E^2 + \frac{1}{2\mu_0}B^2$
-5. 能流密度（坡印廷矢量）：$\overrightarrow{S} = \overrightarrow{E}\times\overrightarrow{H}$
-
-## 第四章 电磁感应与电磁场
+## 第十五章 电磁感应与电磁场
 世界是对称和谐的：奥斯特 电流→磁场  磁场→？电流     法拉第经过了10年的努力：电磁感应定律
 
 # 第四篇 热学
