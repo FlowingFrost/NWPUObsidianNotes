@@ -250,125 +250,260 @@ $U_{ab} = U_a - U_b = \int_a^b \vec{E} \cdot d\vec{l}$
 总电场能量：$W_e = \int_V w_e dV = \int_V \frac{1}{2}\varepsilon E^2 dV$
 
 ## 第十四章 稳恒磁场
-### $1 稳恒电流的基本概念
->通过任意导体界面的电流强度不随时间变化的电流
+
+### §14.1 稳恒电流的基本概念
 #### 一、电流和电流密度
-##### 电流
->大量载流子定向运动
->形成条件：导体内有可移动电荷、导体两端有电压差
-##### 电流强度
->单位时间内通过某截面的电量
-##### 电流密度矢量
->通过垂直于载流子运动方向的单位面积的**电流强度**
-$\delta = \frac{dl}{ds_\perp}$
-$I = \int_S{\overrightarrow{\delta}\cdot{dS}}$
+##### 1. 稳恒电流
+稳恒电流是通过任意导体截面的电流强度不随时间变化的电流。形成条件：导体内有可移动的电荷，导体两端有电压差。
 
-#### 电流密度与电荷的运动的关系
+##### 2. 电流强度
+电流强度是单位时间内通过某截面的电量，定义为：
+$$I = \frac{dq}{dt}$$
 
+当电流随时间变化时，瞬时电流为：
+$$i = \lim_{\Delta t \to 0} \frac{\Delta q}{\Delta t} = \frac{dq}{dt}$$
 
-### $2磁场 磁感应强度
-#### 安培分子电流假说
->物质的每个分子都存在着回路电流
->磁场现象的本源是电荷的运动
-#### 磁场
-1. **磁场的作用本质**
-	磁作用本质：磁场（磁体、电流、运动电荷产生磁场，相互）
-	磁场是一种物质，具有物质性
-	电场与电荷有关，磁场与运动电荷有关
-	
-2. **磁感应强度B**
-	**磁场方向**：场中各点有一特定方向，电荷沿该方向运动不受磁力作用
-	垂直于磁场方向运动，电荷受磁力最大
-	运动电荷受磁场力方向垂直于运动方向和磁场方向
-	方向：该点小磁针N极所指方向
+##### 3. 电流密度矢量
+电流密度矢量表示通过垂直于载流子运动方向的单位面积的电流强度。
+$$\vec{\delta} = \frac{dI}{dS_\perp}$$
 
-#### 运动电荷产生的磁场
-**电荷元**: de = dE....
-**电流元**: 运动电荷组成的体系$Id\overrightarrow{l} =....$
-$d\overrightarrow{B} = k\frac{Idlsin\alpha}{r^2}$,
+通过导体中任一有限截面S的电流强度为：
+$$I = \int_S \vec{\delta} \cdot d\vec{S}$$
 
->#### 一个运动电荷产生的磁场有何特性：
->(I = nqvS)$d \overrightarrow{B}=\frac{\mu}{4\pi}\frac{(qnSv)d\overrightarrow{l}\times{\overrightarrow{r_{0}}}}{r^{2}}$
->每个以速度v运动，电荷量为q的电荷产生的磁感应强度：$\overrightarrow{B}=\frac{d\overrightarrow{B}}{d \overrightarrow{N}}=\frac{\mu}{4\pi}\frac{q \overrightarrow{v}\times{\overrightarrow{r_{0}}}}{r^{2}}$
+电流密度与电荷的运动的关系：
+$$\vec{\delta} = n q \vec{v}$$
+其中，n为电荷数密度，q为单个电荷量，$\vec{v}$为电荷平均定向速度。
 
-在真空中磁导率为$\begin{matrix}dB = \frac{\mu_0}{4\pi}\frac{Id\overrightarrow{l}\times{\overrightarrow{r_0}}}{r^2}\\ \mu_0 = 4\pi\times10^{-7}N\cdot A^{-2} \end{matrix}$
-方向：手指指向电流元方向，弯曲向单位矢量方向(从电流元指向所求点位置)，拇指方向是场强方向
-#### 毕-萨定律一般步骤
+#### 二、电源 电动势
+电源是能够将正电荷从低电势处移到高电势处的非静电力的装置。
+
+电源电动势定义为在电源内部，将单位正电荷从负极移到正极，非静电力所做的功：
+$$\varepsilon = \oint_L \vec{E_k} \cdot d\vec{l}$$
+
+其中 $\vec{E_k}$ 是非静电场场强。
+
+### §14.2 磁场 磁感应强度
+#### 一、磁场
+磁场是一种特殊的物质，具有物质性。运动电荷、电流、磁体都能产生磁场，磁场对运动电荷、电流、磁体有作用力。
+
+安培分子电流假说：物质的每个分子都存在着回路电流，磁场现象的本源是电荷的运动。
+
+#### 二、磁感应强度B
+1. 方向：某点小磁针N极的指向
+2. 大小：速度为$\vec{v}$的电荷q在磁场中受到的最大磁力与qv的比值
+$$B = \frac{F_{max}}{qv}$$
+
+磁感应强度服从叠加原理：
+$$\vec{B} = \vec{B_1} + \vec{B_2} + \cdots + \vec{B_n} = \sum_i \vec{B_i}$$
+
+#### 三、磁场线
+磁场线是描述磁场的曲线，曲线上每一点的切线方向表示该点磁感应强度的方向，磁场线的疏密表示磁感应强度的大小。
+
+磁场线的性质：
+1. 磁场线是闭合曲线，无头无尾
+2. 两条磁场线不相交
+
+### §14.3 毕奥-萨伐尔定律
+#### 一、毕奥-萨伐尔定律
+电流元 $Id\vec{l}$ 在空间某点P产生的磁感应强度为：
+$$d\vec{B} = \frac{\mu_0}{4\pi} \frac{I d\vec{l} \times \vec{r}}{r^3} = \frac{\mu_0}{4\pi} \frac{I d\vec{l} \times \vec{r_0}}{r^2}$$
+
+其中 $\mu_0 = 4\pi \times 10^{-7} N \cdot A^{-2}$ 是真空磁导率。
+
+任意有限长载流导线在P点的磁感应强度：
+$$\vec{B} = \int d\vec{B} = \int \frac{\mu_0}{4\pi} \frac{I d\vec{l} \times \vec{r}}{r^3}$$
+
+#### 二、毕奥-萨伐尔定律的应用步骤
 1. 选择电流元Idl
 2. 写出此电流元在某点场强大小
-3. 确定dB方向
-4. 建立坐标系，求分量$dB_x$
-5. 积分$B_x = \int{dB_x}$
-6. 矢量和$\overrightarrow{B}=B_x\overrightarrow{i}+B_y\overrightarrow{j}+B_z\overrightarrow{k}$
-##### 经典类型
-##### 1. 有限长直导线的磁感应强度
->P点对于导线两端连线的夹角(水平分割)$B =\frac{\mu_0 I}{4 \pi a}(\sin{\beta_2}-\sin{\beta_1})$
->导线无限长：$\beta_2 = \frac{\pi}{2}\beta_1 = -\frac{\pi}{2}\;B =\frac{\mu_0 I}{2 \pi a}$
->导线半无限长：$B =\frac{\mu_0 I}{4 \pi a}$
->P点在导线延长线上$B=0$
+3. 确定dB方向（用右手螺旋法则，由 $d\vec{l} \times \vec{r}$ 确定）
+4. 建立坐标系，求分量$dB_x$、$dB_y$、$dB_z$
+5. 积分$B_x = \int{dB_x}$，$B_y = \int{dB_y}$，$B_z = \int{dB_z}$
+6. 矢量合成$\vec{B}=B_x\vec{i}+B_y\vec{j}+B_z\vec{k}$
 
-##### 2. 圆环，P点位于轴线
->$B = \frac{\mu_0 IR^2}{2(R^2+x^2)^{\frac{3}{2}}}$
+#### 三、典型电流的磁场
+1. 有限长直导线的磁感应强度：
+$$B = \frac{\mu_0 I}{4\pi a}(\sin\beta_2 - \sin\beta_1)$$
+其中 $\beta_1$、$\beta_2$ 是P点对导线两端连线的夹角。
 
-### $4 表述磁场性质的两条定理
+导线无限长：$B = \frac{\mu_0 I}{2\pi a}$
+
+导线半无限长：$B = \frac{\mu_0 I}{4\pi a}$
+
+P点在导线延长线上：$B = 0$
+
+2. 圆形载流导线轴线上一点的磁感应强度：
+$$B = \frac{\mu_0 I R^2}{2(R^2 + x^2)^{3/2}}$$
+
+圆心处：$B = \frac{\mu_0 I}{2R}$
+
+#### 四、运动电荷产生的磁场
+每个以速度$\vec{v}$运动、电荷量为q的电荷产生的磁感应强度为：
+$$\vec{B} = \frac{\mu_0}{4\pi} \frac{q \vec{v} \times \vec{r}}{r^3}$$
+
+### §14.4 磁场的高斯定理和安培环路定理
 #### 一、磁场的高斯定理
->磁通量：通过磁场任一曲面的磁场线条数
->$d\Phi_{m}=BdS_⊥=BdS\cos\theta=\overrightarrow{B}d\overrightarrow{S}$
->因为磁场线闭合，$\oint_S{\overrightarrow{B}d\overrightarrow{S}} = 0$
+通过任意闭合曲面的磁通量恒等于零：
+$$\oint_S \vec{B} \cdot d\vec{S} = 0$$
 
-无源场
+这表明磁场是无源场。
+
+磁通量定义：$d\Phi_{m}=BdS_\perp=BdS\cos\theta=\vec{B} \cdot d\vec{S}$
 
 #### 二、安培环路定理
->$\oint_l{\overrightarrow{B}d\overrightarrow{l}} = ?$
->1. 类比，研究特殊情况：无限长直导线
->![[Physics2_C3S4.jpg]]
->此环路上，磁场大小方向相同。
->2. 平面内任意环路
->$\oint_l{\overrightarrow{B}\cdot d\overrightarrow{l}}=\mu_0\sum\limits_{内}{I_i}$
+在真空中的稳恒磁场内，磁感应强度沿任意闭合路径的线积分等于该闭合路径所包围的电流的代数和乘以真空磁导率。
+$$\oint_L \vec{B} \cdot d\vec{l} = \mu_0 \sum I_{内}$$
 
-非保守场                                                                                                              
+安培环路定理表明磁场是非保守场（有旋场）。
+
 #### 三、安培环路定理的应用
-1. 根据电流分布研究磁场分布
-2. 选取适当的闭合环路：通过所有磁场的点、环路上各点B=常量、形状简单
-3. 选择绕向，确定电流正负(右手螺旋法则)
+利用安培环路定理求解磁场分布的步骤：
+1. 根据电流分布分析磁场分布
+2. 选取适当的闭合环路（通过所求磁场的点、环路上各点B为常量、形状简单）
+3. 选择闭合环路绕向，确定各电流的正负
+4. 根据安培环路定理列方程求解
 
-#### 总结
+典型对称性分布的磁场：
+1. 无限长载流直导线：$B = \frac{\mu_0 I}{2\pi r}$
+2. 无限长载流圆柱体：柱内 $B = \frac{\mu_0 I r}{2\pi R^2}$，柱外 $B = \frac{\mu_0 I}{2\pi r}$
+3. 无限长螺线管：$B = \mu_0 n I$
+4. 无限大载流平面：$B = \frac{1}{2}\mu_0 \delta$，其中$\delta$是电流面密度
 
+### §14.5 磁场对运动电荷的作用
+#### 一、洛伦兹力
+运动电荷在磁场中受到的力称为洛伦兹力：
+$$\vec{F_L} = q\vec{v} \times \vec{B}$$
 
-### $5 磁场对电流的作用
-#### 洛伦兹力
-$\overrightarrow{F_L}=q\overrightarrow{v}\times\overrightarrow{B}$
-普遍情况下，空间中电场与磁场同时存在
-$\overrightarrow{F}=$
+洛伦兹力的大小：$F_L = qvB\sin\alpha$，其中$\alpha$是$\vec{v}$与$\vec{B}$的夹角。
 
-#### 三、有磁介质时磁场基本性质
-1. **磁场的高斯定理**：$\oint_S{\overrightarrow{B}d\overrightarrow{S}} = 0$，磁场是无源场
-2. **安培环路定理**：$\oint_l{\overrightarrow{B}\cdot d\overrightarrow{l}}=\mu\sum_{内}{I}=\mu_{0}\mu_r\sum_{内}{I_i}$
-	其中 $\mu_0$ 是真空磁导率，$\mu_r$ 是相对磁导率，$\mu=\mu_0\mu_r$ 是总磁导率
-	引入磁场强度矢量：$\overrightarrow{H}=\frac{\overrightarrow{B}}{\mu}$
-	则有：$\oint_l{\overrightarrow{H}\cdot d\overrightarrow{l} = \sum_内{I_i}}$
-	磁场强度是一个辅助物理量，反映磁场分布，与传导电流有关
+洛伦兹力的特点：
+1. 力的方向垂直于$\vec{v}$和$\vec{B}$所决定的平面
+2. 洛伦兹力不做功，只改变速度方向，不改变速度大小
+3. 在复合场中，带电粒子受到的总力为：$\vec{F} = q\vec{E} + q\vec{v} \times \vec{B}$
 
-#### 四、利用磁场强度的安培环路定理进行磁场计算
-在有磁介质时，使用磁场强度 $\overrightarrow{H}$ 的安培环路定理往往更方便。
+#### 二、带电粒子在匀强磁场中的运动
+1. $v // B$：匀速直线运动
+2. $v \perp B$：匀速圆周运动，半径 $R = \frac{mv}{qB}$，周期 $T = \frac{2\pi m}{qB}$
+3. $v$与$B$成任意角$\theta$：螺旋线运动，螺距 $h = v_{//}T = \frac{2\pi mv\cos\theta}{qB}$
 
-## ？？？ 磁介质中的磁场
-### § ？ 磁介质的磁化
-#### 一、磁介质的分类
+#### 三、霍尔效应
+当电流垂直于外磁场通过导体时，在垂直于磁场和电流的方向上会产生一个横向电势差，这种现象称为霍尔效应。
+
+霍尔电压：$U_H = \frac{IB}{nqd}$，其中n为载流子数密度，d为导体厚度，q为载流子电荷量。
+
+霍尔系数：$R_H = \frac{1}{nq}$
+
+### §14.6 磁场对载流导线的作用
+#### 一、安培力
+磁场对电流元的作用力为：$d\vec{F} = I d\vec{l} \times \vec{B}$
+
+对整个载流导线的作用力：$\vec{F} = \int I d\vec{l} \times \vec{B}$
+
+#### 二、磁场对载流线圈的作用
+对于在匀强磁场中的平面载流线圈：
+- 磁力矩：$\vec{M} = \vec{P_m} \times \vec{B}$，其中 $\vec{P_m} = IS\vec{n}$ 为磁偶极矩
+- 线圈所受合力为零
+- 当 $\vec{P_m}//\vec{B}$ 时，力矩为零，为稳定平衡
+- 当 $\vec{P_m} \perp \vec{B}$ 时，力矩最大
+
+#### 三、磁力的功
+载流导线在磁场中移动时，磁力做功为：
+$$A = I\Delta\Phi_m$$
+其中 $\Delta\Phi_m$ 是磁通量的改变量。
+
+载流线圈在磁场中转动时，磁力矩做功为：
+$$A = I\Delta\Phi_m$$
+
+### §14.7 磁介质中的磁场
+#### 一、三类磁介质
 1. **顺磁质**：$\mu_r > 1$（微大于1），如铝、铂、氧等
-2. **抗磁质**：$\mu_r < 1$（微小于1），如铜、银、金、水等
+2. **抗磁质**：$\mu_r < 1$（微小于1），如铜、银、金、水等  
 3. **铁磁质**：$\mu_r >> 1$，如铁、钴、镍等
 
-#### 二、磁化强度
-磁化强度：$\overrightarrow{M}=\frac{\sum\overrightarrow{P_{mi}}}{\Delta V}$，表示单位体积内的磁矩
+#### 二、磁介质的磁化
+磁介质在磁场中会被磁化，表面出现磁化电流。磁化强度定义为：
+$$\vec{M}=\frac{\sum\vec{P_{mi}}}{\Delta V}$$
+表示单位体积内的磁矩。
 
-磁化电流：$\oint_l \overrightarrow{M}\cdot d\overrightarrow{l} = I'$，其中I'是磁化电流
+磁化电流：$\oint_l \vec{M}\cdot d\vec{l} = I'$，其中I'是磁化电流。
 
-### § ？ 有磁介质时的安培环路定理
-在有磁介质时：$\oint_l \overrightarrow{H}\cdot d\overrightarrow{l} = I_0$，其中I_0为传导电流
+#### 三、有磁介质时磁场的基本性质
+1. **磁场的高斯定理**：$\oint_S \vec{B} \cdot d\vec{S} = 0$，磁场是无源场
+2. **安培环路定理**：$\oint_l \vec{B} \cdot d\vec{l} = \mu \sum_{内} I_i = \mu_0 \mu_r \sum_{内} I_i$
+其中 $\mu_0$ 是真空磁导率，$\mu_r$ 是相对磁导率，$\mu = \mu_0 \mu_r$ 是总磁导率
 
-## 第十五章 电磁感应与电磁场
-世界是对称和谐的：奥斯特 电流→磁场  磁场→？电流     法拉第经过了10年的努力：电磁感应定律
+引入磁场强度矢量：$\vec{H} = \frac{\vec{B}}{\mu}$
+
+则有：$\oint_l \vec{H} \cdot d\vec{l} = \sum_{内} I_i$
+
+#### 四、利用磁场强度的安培环路定理进行磁场计算
+在有磁介质时，使用磁场强度 $\vec{H}$ 的安培环路定理往往更方便：
+$$\oint_l \vec{H} \cdot d\vec{l} = \sum_{内} I_i$$
+
+
+
+## 第十五章 电磁感应
+### §15.1 电磁感应定律
+#### 一、法拉第电磁感应定律
+电路中感应电动势的大小，跟穿过这一回路的磁通量的变化率成正比：
+$$\varepsilon_i = -\frac{d\Phi_m}{dt}$$
+
+负号表示感应电动势的方向总是阻碍磁通量的变化（楞次定律）
+
+#### 二、动生电动势和感生电动势
+1. **动生电动势**：导体在恒定磁场中运动产生的电动势
+   $$\varepsilon = \int_{L} (\vec{v}\times\vec{B})\cdot d\vec{l}$$
+
+2. **感生电动势**：磁场变化引起磁通量变化而产生的电动势
+   $$\varepsilon = -\frac{d}{dt}\int \vec{B} \cdot d\vec{S}$$
+
+### §15.2 自感和互感
+#### 一、自感现象
+由于回路中电流变化而在自身回路中产生感应电动势的现象。
+
+自感系数：$L = \frac{\Psi}{I} = \frac{N\Phi}{I}$，单位：亨利(H)
+
+自感电动势：$\varepsilon_L = -L\frac{dI}{dt}$
+
+#### 二、互感现象
+当一个回路中的电流发生变化时，在邻近另一个回路中产生感应电动势的现象。
+
+互感系数：$M = \frac{\Psi_{21}}{I_1} = \frac{N_2\Phi_{21}}{I_1}$，单位：亨利(H)
+
+互感电动势：$\varepsilon_2 = -M\frac{dI_1}{dt}$
+
+### §15.3 磁场的能量
+#### 一、自感磁能
+线圈中建立电流I时，磁场具有的能量为：$W_m = \frac{1}{2}LI^2$
+
+#### 二、磁场能量密度
+磁场能量密度：$w_m = \frac{dW_m}{dV} = \frac{1}{2}\frac{B^2}{\mu_0}$（真空中）
+在磁介质中：$w_m = \frac{1}{2}\frac{B^2}{\mu} = \frac{1}{2}\vec{B}\cdot\vec{H}$
+
+## 第十六章 麦克斯韦电磁场理论
+### §16.1 位移电流
+#### 一、位移电流的概念
+麦克斯韦提出：变化的电场也能激发磁场，这种变化电场等效于一种电流，称为位移电流。
+
+位移电流密度：$\vec{J_d} = \varepsilon_0\frac{\partial\vec{E}}{\partial t}$
+
+位移电流：$I_d = \int_S \vec{J_d}\cdot d\vec{S} = \varepsilon_0\frac{d\Phi_e}{dt}$
+
+全电流：$I_{全} = I_{传导} + I_d$
+
+#### 二、麦克斯韦方程组的积分形式
+1. $\oint_S \vec{B}\cdot d\vec{S} = 0$  (磁场高斯定理)
+2. $\oint_L \vec{E}\cdot d\vec{l} = -\frac{d\Phi_m}{dt}$  (法拉第电磁感应定律)
+3. $\oint_S \vec{D}\cdot d\vec{S} = \sum q$  (电场高斯定理)
+4. $\oint_L \vec{H}\cdot d\vec{l} = I + \frac{d\Phi_D}{dt}$  (全电流安培环路定理)
+
+### §16.2 电磁波
+#### 一、电磁波的基本性质
+1. 横波性质：$\vec{E}$、$\vec{B}$、$\vec{v}$ 三者相互垂直
+2. 传播速度：$c = \frac{1}{\sqrt{\mu_0\varepsilon_0}} = 3\times10^8 m/s$
+3. 同步变化：$\frac{E}{B} = c$
+4. 能量传播：电磁波能量密度 $w = \frac{1}{2}\varepsilon_0E^2 + \frac{1}{2\mu_0}B^2$
+5. 能流密度（坡印廷矢量）：$\vec{S} = \vec{E}\times\vec{H}$
 
 # 第四篇 热学
 - **热学的研究对象**
