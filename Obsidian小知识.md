@@ -212,3 +212,5 @@ ov:::\overrightarrow{#cursor}
 大:::{\large#cursor};
 小:::{\small#cursor};
 花体:::{\mathcal{#cursor}}
+
+$\frac{d^{2}\mathrm{y}(t)}{dt^{2}}+\alpha A\mathrm{y}(t)=\beta b,\;where\;A=\left(\begin{matrix}a_{11}\;a_{12}\\a_{21}\;a_{22}\end{matrix}\right),\;\mathrm{y}(t)=\left(\begin{matrix}y_1(t)\\y_2(t)\end{matrix}\right)$
