@@ -1,0 +1,15 @@
+@startuml
+title 构件图
+
+component "产品" as Product
+component "订单" as Order
+component "顾客" as Customer
+
+interface "数据存取" as I1
+interface "数据存取" as I2
+
+Product -- I1
+Customer -- I2
+Order --> I1
+Order --> I2
+@enduml

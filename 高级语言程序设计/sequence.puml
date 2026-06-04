@@ -1,0 +1,21 @@
+@startuml
+title 顺序图 - 检索书籍
+
+actor 顾客 as User
+participant "操作画面" as UI
+participant "图书清单" as List
+participant "图书" as Book
+
+User -> UI: 输入书名
+activate UI
+UI -> List: 检索(书名)
+activate List
+List -> Book: 查询信息
+activate Book
+Book --> List: 返回图书信息
+deactivate Book
+List --> UI: 返回结果
+deactivate List
+UI --> User: 显示图书信息
+deactivate UI
+@enduml

@@ -1,0 +1,56 @@
+@startuml
+skinparam style strictuml
+title 类图的6种关系
+
+class 人 {
+  - 姓名: String
+  + 使用(tool: 工具): void
+}
+
+class 工具 {
+  - 名称: String
+}
+
+class 部门 {
+  - 部门名: String
+}
+
+class 员工 {
+  - 工号: String
+}
+
+class 心脏 {
+  - 跳动频率: int
+}
+
+class 狗 {
+  + 吠(): void
+}
+
+class 动物 {
+  + 呼吸(): void
+}
+
+interface 飞行 {
+  + 飞(): void
+}
+
+class 鸟 {
+  + 飞(): void
+}
+
+人 ..> 工具 : <<依赖>>
+部门 "1" o-- "*" 员工 : <<聚合>>
+人 "1" *-- "1" 心脏 : <<组合>>
+狗 --|> 动物 : <<泛化>>
+鸟 ..|> 飞行 : <<实现>>
+学生 "1" -- "*" 课程 : <<关联>> 选修
+
+class 学生 {
+  - 学号: String
+}
+
+class 课程 {
+  - 课号: String
+}
+@enduml

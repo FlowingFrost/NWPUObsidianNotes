@@ -1,0 +1,27 @@
+@startuml
+title 用例图的4种关系
+
+left to right direction
+
+actor 顾客 as Customer
+actor 管理员 as Admin
+
+rectangle 图书管理系统 {
+  usecase "借书" as UC1
+  usecase "还书" as UC2
+  usecase "验证身份" as UC3
+  usecase "逾期罚款" as UC4
+  usecase "查询图书" as UC5
+  usecase "VIP查询" as UC6
+}
+
+Customer -- UC1
+Customer -- UC2
+Customer -- UC5
+Admin -- UC1
+
+UC1 ..> UC3 : <<include>>
+UC1 ..> UC4 : <<extend>>
+
+UC6 --|> UC5 : <<泛化>>
+@enduml

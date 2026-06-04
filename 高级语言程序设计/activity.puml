@@ -1,0 +1,29 @@
+@startuml
+title 活动图 - 购买流程
+
+|顾客|
+start
+:提交购买申请;
+
+|销售部门|
+:检查库存;
+
+if (有库存?) then (是)
+  :处理订单;
+else (否)
+  |生产部门|
+  :生产;
+  |销售部门|
+  :处理订单;
+endif
+
+fork
+  :发货;
+fork again
+  :通知顾客;
+end fork
+
+|顾客|
+:收货;
+stop
+@enduml

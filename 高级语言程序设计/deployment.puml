@@ -1,0 +1,19 @@
+@startuml
+title 部署图
+
+node "客户端" as Client <<device>> {
+  artifact "Client.exe" as C1
+}
+
+node "Web服务器" as Server <<device>> {
+  artifact "Server.exe" as S1
+  artifact "数据库驱动" as S2
+}
+
+node "数据库服务器" as DB <<device>> {
+  artifact "db1.dll" as D1
+}
+
+Server -- Client : <<LAN>>
+Server -- DB : <<HTTP>>
+@enduml
